@@ -1,6 +1,6 @@
 ---
 name: inchheart-litellm-explain
-description: Use for Wang Donghong's local LiteLLM proxy that adapts VS Code Copilot, Claude, and custom model providers, including NVIDIA Build/NIM multi-account routing, OpenAI Compatibility Responses endpoints, chatLanguageModels.json, compatibility callbacks, tool schema sanitizing, output-token budgets, redacted request metrics, slow-request statistics, model health probing, health panel, 429/cooldown handling, previous_response_id errors, ToolDescription errors, and related Obsidian notes.
+description: "LiteLLM 本地代理解释与排障技能：用于适配 VS Code Copilot、Claude 和自定义模型供应商，处理 NVIDIA Build/NIM 多账号路由、OpenAI Compatibility Responses、chatLanguageModels.json、兼容回调、工具 schema 清洗、输出 token 预算、429/冷却、previous_response_id、ToolDescription 错误和相关 Obsidian 笔记。"
 ---
 
 # InchHeart LiteLLM Explain

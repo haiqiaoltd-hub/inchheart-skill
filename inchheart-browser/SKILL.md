@@ -1,6 +1,6 @@
 ---
 name: inchheart-browser
-description: Headless browser toolkit — Obscura (Go, fast, lightweight) for batch scraping & CDP/MCP, Camoufox (Python, Playwright) for interaction, screenshots, login, and anti-fingerprinting. Read OBSCURA.md or CAMOUFOX.md for detailed usage.
+description: "无头浏览器工具技能：用于选择和使用 Obscura、Camoufox 处理网页抓取、批量渲染、CDP/MCP、页面交互、截图、登录流程和反指纹浏览任务；按场景读取 OBSCURA.md 或 CAMOUFOX.md。"
 tags: [browser, scraping, obscura, camoufox, headless]
 ---
 

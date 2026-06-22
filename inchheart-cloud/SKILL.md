@@ -1,6 +1,6 @@
 ---
 name: inchheart-cloud
-description: Use for Wang Donghong's personal cloud and deployment operations, especially connecting to the GCP Ubuntu server, checking Cloudflare DNS/SSL state, diagnosing api.eastart.asia, Caddy automatic HTTPS, reverse proxy behavior, origin certificate failures such as 525/522, and service reachability for InchHeart-hosted APIs.
+description: "InchHeart 云服务与部署运维技能：用于连接 GCP Ubuntu 服务器、检查 Cloudflare DNS/SSL、诊断 api.eastart.asia、Caddy 自动 HTTPS、反向代理、525/522 源站证书错误，以及 InchHeart API 服务可达性。"
 ---
 
 # InchHeart Cloud

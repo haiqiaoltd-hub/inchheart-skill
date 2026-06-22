@@ -1,6 +1,6 @@
 ---
 name: inchheart-source
-description: Manage Wang Donghong's local source-code archive at /Users/mac/Repository/Sources. Use when the user asks to check, inspect, update, refresh, download newer zip archives for, or maintain the source archive or Source说明.md, especially for recurring upstream version checks of the "持续更新项目" list and consistency fixes for the source repository index.
+description: "本机源码归档维护技能：用于检查、审阅、更新、刷新或下载 /Users/mac/Repository/Sources 中的源码归档，维护 Source说明.md，尤其适合持续更新项目的上游版本检查、zip 下载校验和源码索引一致性修复。"
 ---
 
 # InchHeart Source

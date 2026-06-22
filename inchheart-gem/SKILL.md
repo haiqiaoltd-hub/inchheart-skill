@@ -1,9 +1,6 @@
 ---
 name: inchheart-gem
-description: |
-  InchHeart Gem：人物视角与闲聊酒馆技能。用于用户点名人物、要求“用某某视角/某某会怎么看/切换到某某”、
-  请求人物 perspective、开闲聊酒馆、深夜闲聊、随便找个人聊聊，或要求蒸馏/更新人物视角时。
-  本技能只处理人物 perspective、酒馆人物和人物蒸馏；学院派教授、论文支援、学科框架和研究设计请使用 inchheart-wisdom。
+description: "人物视角与闲聊酒馆技能：用于点名人物、要求用某某视角、询问某人会怎么看、切换人物 perspective、开启闲聊酒馆、深夜闲聊、随机陪聊，或蒸馏/更新人物视角；学院派分析和研究设计应使用 inchheart-wisdom。"
 ---
 
 # InchHeart Gem

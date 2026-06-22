@@ -1,6 +1,6 @@
 ---
 name: inchheart-assets
-description: "Use when organizing or refactoring personal digital assets: ebook libraries, project repositories, source repositories, local services, folders, images, videos, movies, browser bookmarks, and Obsidian notes. Applies single-axis physical placement, discipline-specific book taxonomy, and graph/tag indexing."
+description: "数字资产整理技能：用于整理或重构电子书库、项目仓库、源码收藏、本地服务、文件夹、图片、视频、电影、浏览器书签和 Obsidian 笔记；强调唯一物理归位、学科化书籍分类，以及图谱/标签式索引。"
 tags: [assets, file-organization, repo, source-repo, local-service, ebook, folder, video, movie, image, bookmark, obsidian, taxonomy]
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: inchheart-search
-description: Combined InchHeart web search & research skill — SearXNG search tool, server configuration reference, and web scraping workflow. Run `scripts/inchheart-search "query"` to search, read CONFIGURATION.md for SearXNG YAML/fault-finding, read WORKFLOW.md for search-to-scrape pipelines.
+description: "InchHeart 搜索与网页研究技能：用于通过本机 SearXNG 搜索资料、查询文档和 GitHub 项目，排查 SearXNG 配置/YAML 问题，并按 WORKFLOW.md 执行搜索到抓取的网页研究流程。"
 ---
 
 # inchheart-search

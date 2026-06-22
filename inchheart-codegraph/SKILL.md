@@ -1,6 +1,6 @@
 ---
 name: inchheart-codegraph
-description: Use CodeGraph MCP for InchHeart's locally indexed source archive. Trigger when the user asks to inspect, understand, compare, review, or trace code in known source projects such as Hermes, Claude Code, Codex, OpenCode, Gemini CLI, CC Switch, Cherry Studio, LiteLLM, or asks about CodeGraph projectPath usage and indexed source directories.
+description: "CodeGraph 源码索引技能：用于通过 CodeGraph MCP 检查、理解、比较、审查或追踪本机已索引源码项目，包括 Hermes、Claude Code、Codex、OpenCode、Gemini CLI、CC Switch、Cherry Studio、LiteLLM；也用于处理 projectPath 和索引目录问题。"
 ---
 
 # InchHeart CodeGraph

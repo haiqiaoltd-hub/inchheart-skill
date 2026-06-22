@@ -1,6 +1,6 @@
 ---
 name: inchheart-zellij-explain
-description: Use when the user wants guidance for the inchheart-zellij MCP, including sending tasks to Claude Code, OpenAI Codex CLI, OpenCode, or Gemini CLI running in Zellij, controlling Zellij agent sessions, troubleshooting pane/session routing, or understanding the bridge tools.
+description: "inchheart-zellij MCP 说明与排障技能：用于把任务发送给 Zellij 中运行的 Claude Code、OpenAI Codex CLI、OpenCode 或 Gemini CLI，控制 agent 会话，排查 pane/session 路由问题，并理解桥接工具用法。"
 ---
 
 # InchHeart Zellij Agent Bridge

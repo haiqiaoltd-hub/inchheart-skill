@@ -1,6 +1,6 @@
 ---
 name: inchheart-epub
-description: EPUB 元数据优化 — 清理多看/掌阅残留脏数据、补全缺失字段、修正 OPF 结构、按元数据重命名文件、生成 Calibre 兼容 metadata.opf
+description: "EPUB 元数据优化技能：用于清理多看/掌阅残留脏数据、补全缺失字段、修正 OPF 结构、按元数据重命名文件，并生成 Calibre 兼容的 metadata.opf。"
 tags: [epub, ebook, metadata, calibre, duokan, ireader, optimization]
 ---
 
