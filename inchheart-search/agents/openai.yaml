@@ -1,7 +1,7 @@
 interface:
   display_name: "InchHeart Search"
-  short_description: "Search local SearXNG for coding docs and repositories."
-  default_prompt: "Use $inchheart-search to find current coding documentation or GitHub repositories through my local SearXNG instance."
+  short_description: "搜索网页，并用 Obscura/Camoufox 抓取交互"
+  default_prompt: "Use $inchheart-search to search with local SearXNG, scrape pages with Obscura, interact or screenshot with Camoufox, and troubleshoot the web research pipeline."
 
 policy:
   allow_implicit_invocation: true
