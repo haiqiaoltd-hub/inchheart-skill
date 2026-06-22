@@ -9,12 +9,11 @@ This repository is organized as one skill per directory. Each skill directory co
 - `inchheart-assets`
 - `inchheart-browser`
 - `inchheart-cloud`
-- `inchheart-codegraph`
 - `inchheart-epub`
 - `inchheart-gem`
 - `inchheart-litellm-explain`
 - `inchheart-search`
-- `inchheart-source`
+- `inchheart-source` - source archive updates plus CodeGraph registry and sync workflow
 - `inchheart-wisdom`
 - `inchheart-zellij-explain`
 

@@ -1,4 +1,4 @@
 interface:
   display_name: "InchHeart Source"
-  short_description: "Check and update local source archives"
-  default_prompt: "Use $inchheart-source to check and update the local source archive index."
+  short_description: "维护源码归档，并同步 CodeGraph 索引"
+  default_prompt: "Use $inchheart-source to update local source archives, replace extracted sources, preserve .codegraph, run codegraph sync, refresh the registry, or resolve CodeGraph projectPath values."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "InchHeart CodeGraph"
-  short_description: "Use CodeGraph MCP with InchHeart source repository mappings."
-  default_prompt: "Use InchHeart CodeGraph to inspect a mapped source repository with CodeGraph MCP."

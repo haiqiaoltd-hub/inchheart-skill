@@ -1,6 +1,6 @@
 ---
 name: inchheart-source
-description: "本机源码归档维护技能：用于检查、审阅、更新、刷新或下载 /Users/mac/Repository/Sources 中的源码归档，维护 Source说明.md，尤其适合持续更新项目的上游版本检查、zip 下载校验和源码索引一致性修复。"
+description: "本机源码归档与 CodeGraph 索引维护技能：用于检查、审阅、更新、刷新或下载 /Users/mac/Repository/Sources 中的源码归档，维护 Source说明.md，执行 zip 下载校验、解压替换、codegraph sync、registry 刷新，并通过 resolve_project.py 为 CodeGraph MCP 提供 projectPath。"
 ---
 
 # InchHeart Source
@@ -82,6 +82,31 @@ Key rules for the structure:
 7. If a source is used for deployment, put the running copy in `/Users/mac/Repository/Services`; if it becomes the user's own maintained project, put it in `/Users/mac/Repository/Projects`.
 8. When document facts conflict with the filesystem or live upstream checks, trust current checks and update the document.
 
+## CodeGraph Query Workflow
+
+Use this skill as the single entry for CodeGraph-backed source inspection.
+
+1. Identify which source project the user means.
+2. Resolve the concrete indexed root through `scripts/resolve_project.py` or `references/registry.json`.
+3. Pass the resolved `projectPath` to CodeGraph MCP on every query.
+4. Prefer `codegraph_explore` first for architecture, behavior, bug, symbol, or code-area questions. Use narrower CodeGraph tools only for follow-ups.
+5. If the project is missing or paths changed, run `python3 scripts/refresh_registry.py --write`, then resolve again.
+
+Quick checks:
+
+```bash
+python3 scripts/resolve_project.py codex --field projectPath
+codegraph status --json "$(python3 scripts/resolve_project.py codex --field projectPath)"
+```
+
+CodeGraph rules:
+
+- Always pass the mapped `projectPath`; do not pass the parent collection directory unless it contains `.codegraph/codegraph.db`.
+- The real project root is the directory immediately above `.codegraph/`.
+- If source files changed recently, run `codegraph status --json <projectPath>` and inspect `pendingChanges`.
+- If `pendingChanges` is non-zero, run `codegraph sync <projectPath>`, then `python3 scripts/refresh_registry.py --write`.
+- If the index is corrupted or badly stale, run `codegraph index <projectPath>`, then refresh the registry.
+
 ## Standard Workflow
 
 1. Read the index and directory state:
@@ -109,7 +134,7 @@ When a new version zip is already downloaded and needs to replace the current in
 5. **Restore `.codegraph/`** if it was deleted during wipe.
 6. **Run `codegraph sync <projectPath>`** — incremental update, takes seconds.
 7. **Run `refresh_registry.py --write`** to update the CodeGraph registry.
-8. **Regenerate `source-repos.md`** from `registry.json` (see inchheart-codegraph skill).
+8. **Regenerate `source-repos.md`** from `registry.json`. The refresh script does this automatically.
 
 ### Verified clean method (Python)
 
@@ -162,7 +187,7 @@ Then run codegraph sync and refresh:
 
 ```bash
 codegraph sync /path/to/stable-name-dir
-python3 ~/.hermes/skills/inchheart-codegraph/scripts/refresh_registry.py --write
+python3 scripts/refresh_registry.py --write
 ```
 
 ### Pitfalls
@@ -172,6 +197,16 @@ python3 ~/.hermes/skills/inchheart-codegraph/scripts/refresh_registry.py --write
 - **Always preserve `.codegraph/`**: The CodeGraph DB lives there. If you accidentally delete it, you must run `codegraph index` (full rebuild, slow) instead of `codegraph sync`.
 - **Verify after sync**: Run `codegraph status --json <path>` and check `pendingChanges` are all 0. If not, run `codegraph sync` again.
 - **Registry filter**: After moving projects to `no-update/`, run `refresh_registry.py --write` then verify `registry.json` no longer contains `/no-update/` paths. Manually filter if needed.
+
+## CodeGraph Registry Files
+
+`references/registry.json` is the single source of truth for known CodeGraph indexes.
+
+`references/source-repos.md` is generated from `registry.json`; do not hand-edit version-specific paths into it.
+
+`scripts/resolve_project.py` resolves aliases such as `codex`, `litellm`, `cc-switch`, or `opencode` to a concrete `projectPath`.
+
+`scripts/refresh_registry.py` rescans `/Users/mac/Repository/Sources` for `.codegraph/` directories, updates `registry.json`, and regenerates `source-repos.md`.
 
 ## Pitfalls
 
