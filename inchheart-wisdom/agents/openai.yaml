@@ -1,0 +1,4 @@
+interface:
+  display_name: "InchHeart Wisdom"
+  short_description: "15 个问题型核心教授：学院派分析、论文、研究、代码、医学、政治与创作支援。"
+  default_prompt: "Use $inchheart-wisdom to choose the right core professor for this problem and give a rigorous analysis."

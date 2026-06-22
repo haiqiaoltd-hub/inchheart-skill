@@ -1,0 +1,251 @@
+{
+  "entries": 36,
+  "imported": 12,
+  "duplicates": 24,
+  "skipped": [],
+  "clone_failures": [],
+  "duplicate_items": [
+    {
+      "display_name": "尼采",
+      "repo": "nietzsche-skill",
+      "target_id": "nietzsche-perspective",
+      "external_score": 46,
+      "local_score": 94
+    },
+    {
+      "display_name": "福柯",
+      "repo": "foucault-skill",
+      "target_id": "foucault-perspective",
+      "external_score": 46,
+      "local_score": 84
+    },
+    {
+      "display_name": "汉娜·阿伦特",
+      "repo": "arendt-skill",
+      "target_id": "hannah-arendt-perspective",
+      "external_score": 47,
+      "local_score": 85
+    },
+    {
+      "display_name": "费曼",
+      "repo": "feynman-skill",
+      "target_id": "feynman-perspective",
+      "external_score": 65,
+      "local_score": 110
+    },
+    {
+      "display_name": "爱因斯坦",
+      "repo": "einstein-skill",
+      "target_id": "einstein-perspective",
+      "external_score": 45,
+      "local_score": 104
+    },
+    {
+      "display_name": "达尔文",
+      "repo": "darwin-skill",
+      "target_id": "darwin-perspective",
+      "external_score": 45,
+      "local_score": 94
+    },
+    {
+      "display_name": "贝佐斯",
+      "repo": "bezos-skill",
+      "target_id": "jeff-bezos-perspective",
+      "external_score": 4,
+      "local_score": 95
+    },
+    {
+      "display_name": "张一鸣",
+      "repo": "zhangyiming-skill",
+      "target_id": "zhang-yiming-perspective",
+      "external_score": 3,
+      "local_score": 109
+    },
+    {
+      "display_name": "段永平",
+      "repo": "duanyongping-skill",
+      "target_id": "duan-yongping-perspective",
+      "external_score": 4,
+      "local_score": 84
+    },
+    {
+      "display_name": "张小龙",
+      "repo": "zhangxiaolong-skill",
+      "target_id": "zhang-xiaolong-perspective",
+      "external_score": 4,
+      "local_score": 84
+    },
+    {
+      "display_name": "巴菲特",
+      "repo": "buffett-skill",
+      "target_id": "warren-buffett-perspective",
+      "external_score": 65,
+      "local_score": 83
+    },
+    {
+      "display_name": "芒格",
+      "repo": "munger-skill",
+      "target_id": "munger-perspective",
+      "external_score": 87,
+      "local_score": 109
+    },
+    {
+      "display_name": "保罗·格雷厄姆",
+      "repo": "pggraham-skill",
+      "target_id": "paul-graham-perspective",
+      "external_score": 4,
+      "local_score": 112
+    },
+    {
+      "display_name": "乔布斯",
+      "repo": "steve-jobs-skill",
+      "target_id": "steve-jobs-perspective",
+      "external_score": 87,
+      "local_score": 112
+    },
+    {
+      "display_name": "马斯克",
+      "repo": "elon-musk-skill",
+      "target_id": "elon-musk-perspective",
+      "external_score": 86,
+      "local_score": 110
+    },
+    {
+      "display_name": "山姆·奥特曼",
+      "repo": "altman-skill",
+      "target_id": "sam-altman-perspective",
+      "external_score": 55,
+      "local_score": 105
+    },
+    {
+      "display_name": "鲁迅",
+      "repo": "luxun-skill",
+      "target_id": "lu-xun-perspective",
+      "external_score": 3,
+      "local_score": 93
+    },
+    {
+      "display_name": "卡夫卡",
+      "repo": "kafka-skill",
+      "target_id": "kafka-perspective",
+      "external_score": 54,
+      "local_score": 94
+    },
+    {
+      "display_name": "博尔赫斯",
+      "repo": "borges-skill",
+      "target_id": "borges-perspective",
+      "external_score": 55,
+      "local_score": 95
+    },
+    {
+      "display_name": "荣格",
+      "repo": "jung-skill",
+      "target_id": "carl-jung-perspective",
+      "external_score": 5,
+      "local_score": 85
+    },
+    {
+      "display_name": "安藤忠雄",
+      "repo": "ando-skill",
+      "target_id": "tadao-ando-perspective",
+      "external_score": 4,
+      "local_score": 103
+    },
+    {
+      "display_name": "张雪峰",
+      "repo": "zhangxuefeng-skill",
+      "target_id": "zhangxuefeng-perspective",
+      "external_score": 84,
+      "local_score": 108
+    },
+    {
+      "display_name": "纳瓦尔",
+      "repo": "naval-skill",
+      "target_id": "naval-perspective",
+      "external_score": 77,
+      "local_score": 101
+    },
+    {
+      "display_name": "塔勒布",
+      "repo": "taleb-skill",
+      "target_id": "taleb-perspective",
+      "external_score": 86,
+      "local_score": 112
+    }
+  ],
+  "imported_items": [
+    {
+      "display_name": "康德",
+      "repo": "kant-skill",
+      "id": "kant-perspective",
+      "group": "哲学、理论与宗教"
+    },
+    {
+      "display_name": "维特根斯坦",
+      "repo": "wittgenstein-skill",
+      "id": "wittgenstein-perspective",
+      "group": "哲学、理论与宗教"
+    },
+    {
+      "display_name": "西蒙娜·德·波伏娃",
+      "repo": "beauvoir-skill",
+      "id": "beauvoir-perspective",
+      "group": "哲学、理论与宗教"
+    },
+    {
+      "display_name": "王小波",
+      "repo": "wangxiaobo-skill",
+      "id": "wangxiaobo-perspective",
+      "group": "文学、艺术与电影"
+    },
+    {
+      "display_name": "太宰治",
+      "repo": "dazai-skill",
+      "id": "dazai-perspective",
+      "group": "文学、艺术与电影"
+    },
+    {
+      "display_name": "罗伯特·麦基",
+      "repo": "mckee-skill",
+      "id": "mckee-perspective",
+      "group": "文学、艺术与电影"
+    },
+    {
+      "display_name": "李光耀",
+      "repo": "liguangyao-skill",
+      "id": "liguangyao-perspective",
+      "group": "政治、战略与历史"
+    },
+    {
+      "display_name": "宫崎骏",
+      "repo": "miyazaki-skill",
+      "id": "miyazaki-perspective",
+      "group": "文学、艺术与电影"
+    },
+    {
+      "display_name": "黑泽明",
+      "repo": "kurosawa-skill",
+      "id": "kurosawa-perspective",
+      "group": "文学、艺术与电影"
+    },
+    {
+      "display_name": "亚当·斯密",
+      "repo": "adamsmith-skill",
+      "id": "adamsmith-perspective",
+      "group": "商业、投资与增长"
+    },
+    {
+      "display_name": "哈耶克",
+      "repo": "hayek-skill",
+      "id": "hayek-perspective",
+      "group": "商业、投资与增长"
+    },
+    {
+      "display_name": "赫拉利",
+      "repo": "harari-skill",
+      "id": "harari-perspective",
+      "group": "哲学、理论与宗教"
+    }
+  ]
+}

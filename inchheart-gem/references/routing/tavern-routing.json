@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "name": "inchheart-tavern",
+  "mode": "support-subrouting",
+  "default_strategy": "random_one_main_speaker",
+  "triggers": [
+    "闲聊酒馆",
+    "开酒馆",
+    "找个人聊聊",
+    "随便来个人陪我聊",
+    "深夜闲聊"
+  ],
+  "read_policy": {
+    "mode": "full_markdown_directory_for_chosen_perspective",
+    "read": [
+      "PERSPECTIVE.md",
+      "references/**/*.md"
+    ],
+    "exclude": [
+      "scripts",
+      "caches",
+      "images",
+      "binary_files",
+      "non_markdown_files"
+    ],
+    "default_support_objects": 1,
+    "professors_by_default": false
+  },
+  "members": [
+    {
+      "id": "michael-jackson-perspective",
+      "zh_name": "迈克尔·杰克逊",
+      "path": "references/tavern/michael-jackson-perspective/PERSPECTIVE.md",
+      "references_glob": "references/tavern/michael-jackson-perspective/references/**/*.md"
+    },
+    {
+      "id": "dazai-perspective",
+      "zh_name": "太宰治",
+      "path": "references/tavern/dazai-perspective/PERSPECTIVE.md",
+      "references_glob": "references/tavern/dazai-perspective/references/**/*.md"
+    },
+    {
+      "id": "wangxiaobo-perspective",
+      "zh_name": "王小波",
+      "path": "references/tavern/wangxiaobo-perspective/PERSPECTIVE.md",
+      "references_glob": "references/tavern/wangxiaobo-perspective/references/**/*.md"
+    },
+    {
+      "id": "zhangxuefeng-perspective",
+      "zh_name": "张雪峰",
+      "path": "references/tavern/zhangxuefeng-perspective/PERSPECTIVE.md",
+      "references_glob": "references/tavern/zhangxuefeng-perspective/references/**/*.md"
+    },
+    {
+      "id": "trump-perspective",
+      "zh_name": "特朗普",
+      "path": "references/tavern/trump-perspective/PERSPECTIVE.md",
+      "references_glob": "references/tavern/trump-perspective/references/**/*.md"
+    },
+    {
+      "id": "sun-yuchen-perspective",
+      "zh_name": "孙宇晨",
+      "path": "references/tavern/sun-yuchen-perspective/PERSPECTIVE.md",
+      "references_glob": "references/tavern/sun-yuchen-perspective/references/**/*.md"
+    }
+  ]
+}

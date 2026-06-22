@@ -1,0 +1,4 @@
+interface:
+  display_name: "InchHeart Gem"
+  short_description: "人物视角与闲聊酒馆：调用人物 perspective、随机酒馆陪聊、蒸馏/更新人物。"
+  default_prompt: "用人物视角：请根据当前上下文选择合适的人物 perspective 或开启闲聊酒馆。"

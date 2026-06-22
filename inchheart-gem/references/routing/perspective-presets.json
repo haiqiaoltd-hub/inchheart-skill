@@ -1,0 +1,96 @@
+{
+  "version": "1.0.0",
+  "default_preset": "public-thinker",
+  "presets": {
+    "public-thinker": {
+      "label": "思想家/哲学家/理论家",
+      "applies_to": ["philosopher", "critic", "theorist", "historian", "public intellectual"],
+      "source_priority": ["primary books", "long essays", "lectures", "debates", "letters", "reliable reception history"],
+      "research_focus": ["concept genealogy", "problem field", "argument structure", "conceptual enemies", "late revisions"],
+      "model_focus": ["conceptual lens", "method of suspicion", "boundary distinctions", "internal tensions"],
+      "expression_focus": ["concept vocabulary", "sentence pressure", "abstraction level", "polemic rhythm"],
+      "risk_controls": ["do not flatten schools into slogans", "separate textual evidence from later interpretation", "preserve unresolved contradictions"]
+    },
+    "literary-writer": {
+      "label": "文学家/小说家/诗人",
+      "applies_to": ["novelist", "poet", "playwright", "essayist"],
+      "source_priority": ["primary works", "diaries", "letters", "interviews", "critical editions", "major criticism"],
+      "research_focus": ["narrative stance", "image system", "moral temperature", "voice mechanics", "recurring scenes"],
+      "model_focus": ["world-image", "character logic", "ethical pressure", "time and memory model"],
+      "expression_focus": ["syntax", "metaphor field", "narrative distance", "compression and silence"],
+      "risk_controls": ["do not confuse narrator with author", "avoid long quotation", "mark translation uncertainty"]
+    },
+    "visual-artist": {
+      "label": "视觉艺术家/建筑师/设计者",
+      "applies_to": ["painter", "sculptor", "architect", "designer", "conceptual artist"],
+      "source_priority": ["artworks", "artist statements", "sketches", "exhibition catalogues", "museum archives", "major criticism"],
+      "research_focus": ["formal grammar", "material decisions", "series evolution", "installation context", "reception conflicts"],
+      "model_focus": ["seeing protocol", "composition logic", "material ethics", "institutional stance"],
+      "expression_focus": ["visual metaphor translated into language", "spatial verbs", "color and material vocabulary"],
+      "risk_controls": ["do not reduce art to biography", "separate formal observation from symbolic inference", "include work-specific anchors"]
+    },
+    "filmmaker": {
+      "label": "导演/电影作者",
+      "applies_to": ["director", "screenwriter", "cinematographer", "film theorist"],
+      "source_priority": ["films", "scripts", "director interviews", "commentaries", "production notes", "serious criticism"],
+      "research_focus": ["shot logic", "time handling", "sound-image relation", "actor direction", "production constraints"],
+      "model_focus": ["scene construction", "time-space ethics", "viewer position", "montage or duration logic"],
+      "expression_focus": ["cinematic analogy", "rhythm", "image-first explanation", "silence and omission"],
+      "risk_controls": ["do not summarize plot as method", "anchor claims in specific films", "avoid treating publicity interviews as final theory"]
+    },
+    "founder-operator": {
+      "label": "企业家/产品人/投资人",
+      "applies_to": ["founder", "operator", "investor", "product leader", "executive"],
+      "source_priority": ["shareholder letters", "product memos", "interviews", "company decisions", "postmortems", "credible reporting"],
+      "research_focus": ["decision record", "incentive design", "tradeoff pattern", "capital allocation", "failure response"],
+      "model_focus": ["operating principle", "selection rule", "risk filter", "feedback loop"],
+      "expression_focus": ["compression", "management vocabulary", "numerical framing", "metaphors of systems or customers"],
+      "risk_controls": ["distinguish public branding from actual decisions", "check recent facts", "do not turn outcomes into proof of wisdom"]
+    },
+    "scientist-engineer": {
+      "label": "科学家/工程师",
+      "applies_to": ["scientist", "engineer", "researcher", "mathematician", "computer scientist"],
+      "source_priority": ["papers", "technical talks", "textbooks", "lab notes when available", "long interviews", "accepted histories"],
+      "research_focus": ["problem choice", "proof or experiment style", "tool preference", "error correction", "teaching pattern"],
+      "model_focus": ["first-principles decomposition", "evidence threshold", "debugging heuristic", "abstraction ladder"],
+      "expression_focus": ["analogy discipline", "precision level", "uncertainty markers", "teaching sequence"],
+      "risk_controls": ["do not invent technical claims", "separate scientific consensus from personal style", "verify current technical facts"]
+    },
+    "religious-spiritual": {
+      "label": "宗教/灵修/伦理传统人物",
+      "applies_to": ["religious figure", "spiritual teacher", "theologian", "saint", "monastic leader"],
+      "source_priority": ["canonical texts", "sermons", "letters", "disciples' records", "historical scholarship", "translation notes"],
+      "research_focus": ["practice protocol", "ethical demand", "metaphysical claims", "community form", "translation history"],
+      "model_focus": ["discipline of attention", "suffering model", "salvation or liberation logic", "ritual action"],
+      "expression_focus": ["parable", "commandment", "silence", "repetition", "liturgical cadence"],
+      "risk_controls": ["distinguish history from faith claim", "mark denominational differences", "do not impersonate divine authority"]
+    },
+    "political-historical": {
+      "label": "政治/历史行动者",
+      "applies_to": ["political leader", "revolutionary", "statesman", "military leader", "historical actor"],
+      "source_priority": ["primary writings", "speeches", "policy decisions", "archives", "serious biographies", "opposing accounts"],
+      "research_focus": ["power analysis", "institutional constraints", "strategy shifts", "violence and legitimacy", "historical consequences"],
+      "model_focus": ["statecraft lens", "coalition logic", "enemy construction", "time horizon"],
+      "expression_focus": ["mobilizing language", "slogan mechanics", "historical analogy", "command tone"],
+      "risk_controls": ["do not sanitize harm", "separate explanatory use from endorsement", "preserve contested evidence"]
+    },
+    "performer-media": {
+      "label": "表演者/音乐人/媒介人物",
+      "applies_to": ["musician", "performer", "dancer", "media creator", "showrunner"],
+      "source_priority": ["performances", "rehearsal footage", "interviews", "lyrics within copyright limits", "production notes", "serious criticism"],
+      "research_focus": ["performance grammar", "audience relation", "body technique", "persona construction", "industry decisions"],
+      "model_focus": ["attention choreography", "discipline loop", "myth-making", "embodied timing"],
+      "expression_focus": ["rhythm", "gesture language", "stage image", "call-and-response"],
+      "risk_controls": ["respect lyric copyright limits", "do not confuse stage persona with private person", "anchor in performances"]
+    },
+    "topic-framework": {
+      "label": "主题框架/多人综合",
+      "applies_to": ["topic", "method", "school", "framework"],
+      "source_priority": ["classic texts", "representative thinkers", "method papers", "case studies", "critiques"],
+      "research_focus": ["field boundary", "core schools", "shared assumptions", "major disputes", "use cases"],
+      "model_focus": ["consensus tools", "school differences", "decision tree", "failure modes"],
+      "expression_focus": ["neutral professional style", "comparative tables", "clear definitions"],
+      "risk_controls": ["do not pretend a topic has one voice", "show disagreements", "avoid roleplay"]
+    }
+  }
+}

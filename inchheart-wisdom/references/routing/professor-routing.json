@@ -1,0 +1,350 @@
+{
+  "version": "5.0.0",
+  "architecture": "15-problem-oriented-core-professors-with-dimensional-audit-method",
+  "core_professor_count": 15,
+  "rule": "Only the 15 problem-oriented professors are routable. Dimensional audit is a method resource, not a professor. Old core professors and detailed professor references have been removed.",
+  "core_professors": [
+    {
+      "id": "postmodern-philosophy-professor",
+      "zh_name": "后现代哲学教授",
+      "path": "references/professors/postmodern-philosophy-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "后现代哲学",
+        "后结构主义",
+        "权力知识",
+        "主体性",
+        "意识形态",
+        "概念拆解",
+        "理论论文"
+      ],
+      "evidence_focus": [
+        "概念边界",
+        "话语位置",
+        "二元对立",
+        "制度语境",
+        "反例"
+      ]
+    },
+    {
+      "id": "literature-professor",
+      "zh_name": "文学教授",
+      "path": "references/professors/literature-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "小说",
+        "诗歌",
+        "散文",
+        "叙事",
+        "修辞",
+        "文本细读",
+        "创意写作"
+      ],
+      "evidence_focus": [
+        "词句",
+        "视角",
+        "叙事结构",
+        "人物行动",
+        "文类传统"
+      ]
+    },
+    {
+      "id": "music-professor",
+      "zh_name": "音乐教授",
+      "path": "references/professors/music-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "音乐",
+        "作曲",
+        "编曲",
+        "声音设计",
+        "节奏",
+        "音色",
+        "聆听"
+      ],
+      "evidence_focus": [
+        "节拍",
+        "旋律",
+        "和声",
+        "音色",
+        "动态",
+        "空间"
+      ]
+    },
+    {
+      "id": "film-professor",
+      "zh_name": "电影教授",
+      "path": "references/professors/film-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "电影",
+        "剧本",
+        "镜头",
+        "场面调度",
+        "剪辑",
+        "声音",
+        "影片分析"
+      ],
+      "evidence_focus": [
+        "镜头段落",
+        "构图",
+        "剪辑节奏",
+        "声音",
+        "表演",
+        "空间"
+      ]
+    },
+    {
+      "id": "psychology-professor",
+      "zh_name": "心理学教授",
+      "path": "references/professors/psychology-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "情绪",
+        "认知",
+        "动机",
+        "人格",
+        "关系",
+        "行为改变",
+        "心理学研究"
+      ],
+      "evidence_focus": [
+        "触发情境",
+        "自动想法",
+        "行为后果",
+        "样本",
+        "测量"
+      ]
+    },
+    {
+      "id": "art-professor",
+      "zh_name": "艺术教授",
+      "path": "references/professors/art-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "艺术",
+        "绘画",
+        "摄影",
+        "展览",
+        "艺术史",
+        "图像分析",
+        "创作反馈"
+      ],
+      "evidence_focus": [
+        "形式",
+        "材料",
+        "尺度",
+        "观看路径",
+        "制度语境"
+      ]
+    },
+    {
+      "id": "economics-professor",
+      "zh_name": "经济学教授",
+      "path": "references/professors/economics-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "市场",
+        "价格",
+        "投资",
+        "商业模式",
+        "激励",
+        "组织",
+        "政策"
+      ],
+      "evidence_focus": [
+        "约束",
+        "激励",
+        "边际变化",
+        "机会成本",
+        "风险分配"
+      ]
+    },
+    {
+      "id": "law-professor",
+      "zh_name": "法学教授",
+      "path": "references/professors/law-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "法律",
+        "合同",
+        "权利义务",
+        "责任",
+        "证据",
+        "程序",
+        "法律风险"
+      ],
+      "evidence_focus": [
+        "管辖",
+        "事实",
+        "要件",
+        "证据",
+        "程序",
+        "救济"
+      ]
+    },
+    {
+      "id": "sociology-professor",
+      "zh_name": "社会学教授",
+      "path": "references/professors/sociology-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "社会结构",
+        "阶层",
+        "制度",
+        "家庭",
+        "教育",
+        "组织",
+        "城市"
+      ],
+      "evidence_focus": [
+        "角色",
+        "规则",
+        "资源",
+        "身份",
+        "网络",
+        "惩罚机制"
+      ]
+    },
+    {
+      "id": "kinesiology-professor",
+      "zh_name": "运动学教授",
+      "path": "references/professors/kinesiology-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "运动",
+        "训练",
+        "动作",
+        "体能",
+        "健康管理",
+        "恢复",
+        "疼痛边界"
+      ],
+      "evidence_focus": [
+        "目标",
+        "负荷",
+        "动作模式",
+        "恢复",
+        "营养",
+        "停止信号"
+      ]
+    },
+    {
+      "id": "physics-professor",
+      "zh_name": "物理学教授",
+      "path": "references/professors/physics-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "物理",
+        "力",
+        "能量",
+        "场",
+        "波",
+        "量纲",
+        "实验测量"
+      ],
+      "evidence_focus": [
+        "系统边界",
+        "变量",
+        "量纲",
+        "守恒律",
+        "近似条件"
+      ]
+    },
+    {
+      "id": "modern-computing-professor",
+      "zh_name": "现代计算机教授",
+      "path": "references/professors/modern-computing-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "代码",
+        "架构",
+        "AI",
+        "数据",
+        "网络",
+        "安全",
+        "工具链"
+      ],
+      "evidence_focus": [
+        "输入输出",
+        "状态",
+        "数据流",
+        "复杂度",
+        "测试",
+        "故障模式"
+      ]
+    },
+    {
+      "id": "political-science-professor",
+      "zh_name": "政治学教授",
+      "path": "references/professors/political-science-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "政治",
+        "国家",
+        "权力",
+        "政体",
+        "选举",
+        "国际关系",
+        "公共政策",
+        "治理",
+        "政治传播"
+      ],
+      "evidence_focus": [
+        "主体",
+        "制度规则",
+        "资源",
+        "联盟",
+        "合法性",
+        "执行链条"
+      ]
+    },
+    {
+      "id": "medicine-professor",
+      "zh_name": "医学教授",
+      "path": "references/professors/medicine-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "医学",
+        "疾病",
+        "症状",
+        "诊断",
+        "治疗",
+        "药物",
+        "检查指标",
+        "临床研究",
+        "公共卫生"
+      ],
+      "evidence_focus": [
+        "症状时间线",
+        "红旗信号",
+        "检查结果",
+        "指南证据",
+        "收益风险"
+      ]
+    },
+    {
+      "id": "biology-professor",
+      "zh_name": "生物学教授",
+      "path": "references/professors/biology-professor/PROFESSOR.md",
+      "positive_triggers": [
+        "生物",
+        "细胞",
+        "基因",
+        "遗传",
+        "进化",
+        "生态",
+        "生理",
+        "生命机制",
+        "生物实验"
+      ],
+      "evidence_focus": [
+        "层级",
+        "机制",
+        "实验条件",
+        "因果干预",
+        "外推边界"
+      ]
+    }
+  ],
+  "method_resources": [
+    {
+      "id": "audit-response-protocol",
+      "path": "references/methods/audit-response-protocol.md",
+      "source_path": "/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/SKILL.md",
+      "use_when": "For audit analysis, dimensional audit, thinker-framework, deep structural analysis, or when the response should follow the original two-layer output, read source_path first. path is only a synchronized mirror/fallback."
+    },
+    {
+      "id": "dimensional-audit",
+      "path": "references/methods/dimensional-audit.md",
+      "source_path": "/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/references/audit-model.md",
+      "use_when": "For audit analysis, dimensional audit, thinker-framework requests, media/art/social/desire/life-choice audits, read source_path first. path is only a synchronized mirror/fallback."
+    }
+  ]
+}

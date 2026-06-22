@@ -1,0 +1,7 @@
+interface:
+  display_name: "InchHeart Search"
+  short_description: "Search local SearXNG for coding docs and repositories."
+  default_prompt: "Use $inchheart-search to find current coding documentation or GitHub repositories through my local SearXNG instance."
+
+policy:
+  allow_implicit_invocation: true

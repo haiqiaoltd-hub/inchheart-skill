@@ -1,0 +1,26 @@
+.DS_Store
+Thumbs.db
+
+# Local editor and OS noise
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python and build caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local secrets and machine-specific config
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*token*
+auth.json
+config.toml
+

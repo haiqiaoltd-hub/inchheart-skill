@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-06-22T14:17:24+08:00",
+  "scanRoots": [
+    "/Users/mac/Repository/Sources"
+  ],
+  "projects": [
+    {
+      "alias": "agent-gateway",
+      "name": "new-api",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-gateway/new-api",
+      "initialized": true,
+      "files": 1919,
+      "nodes": 27978,
+      "dbSizeBytes": 62164992,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "agentscope-cli",
+      "name": "agentscope-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/no-update/agentscope-cli/agentscope-cli",
+      "initialized": true,
+      "files": 489,
+      "nodes": 6599,
+      "dbSizeBytes": 13598720,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "cc-switch",
+      "name": "cc-switch",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-gateway/cc-switch/cc-switch",
+      "initialized": true,
+      "files": 587,
+      "nodes": 11378,
+      "dbSizeBytes": 32374784,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "cc-switch-cli",
+      "name": "cc-switch-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-gateway/cc-switch-cli/cc-switch-cli",
+      "initialized": true,
+      "files": 369,
+      "nodes": 15881,
+      "dbSizeBytes": 57270272,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "cherry-studio",
+      "name": "cherry-studio",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-gateway/cherry-studio/cherry-studio",
+      "initialized": true,
+      "files": 1889,
+      "nodes": 28925,
+      "dbSizeBytes": 60215296,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "claudecode-leak",
+      "name": "claude-code-source-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/claudecode-leak/claude-code-source-cli",
+      "initialized": true,
+      "files": 2154,
+      "nodes": 46059,
+      "dbSizeBytes": 85684224,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "codex-cli",
+      "name": "codex-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/codex-cli/codex-cli",
+      "initialized": true,
+      "files": 3055,
+      "nodes": 97085,
+      "dbSizeBytes": 239755264,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "gemini-cli",
+      "name": "gemini-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/no-update/gemini-cli/gemini-cli",
+      "initialized": true,
+      "files": 2245,
+      "nodes": 29362,
+      "dbSizeBytes": 55746560,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "goose-cli",
+      "name": "goose-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/no-update/goose-cli/goose-cli",
+      "initialized": true,
+      "files": 1174,
+      "nodes": 22604,
+      "dbSizeBytes": 57032704,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "hermes-cli",
+      "name": "hermes-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/hermes-cli/hermes-cli",
+      "initialized": true,
+      "files": 3636,
+      "nodes": 99740,
+      "dbSizeBytes": 228954112,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "litellm",
+      "name": "litellm",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-gateway/litellm/litellm",
+      "initialized": true,
+      "files": 5682,
+      "nodes": 104927,
+      "dbSizeBytes": 238473216,
+      "pendingChanges": {
+        "added": 2,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "openclaw-cli",
+      "name": "openclaw-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/no-update/openclaw-cli/openclaw-cli",
+      "initialized": true,
+      "files": 17393,
+      "nodes": 302080,
+      "dbSizeBytes": 589459456,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "opencode-cli",
+      "name": "opencode-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/opencode-cli/opencode-cli",
+      "initialized": true,
+      "files": 2660,
+      "nodes": 47482,
+      "dbSizeBytes": 98922496,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "pi-cli",
+      "name": "pi-cli",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/no-update/pi-cli/pi-cli",
+      "initialized": true,
+      "files": 672,
+      "nodes": 11353,
+      "dbSizeBytes": 26648576,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "vscode-copilot",
+      "name": "vscode-copilot-chat",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/vscode-copilot/vscode-copilot-chat",
+      "initialized": true,
+      "files": 2897,
+      "nodes": 66021,
+      "dbSizeBytes": 135610368,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    }
+  ]
+}

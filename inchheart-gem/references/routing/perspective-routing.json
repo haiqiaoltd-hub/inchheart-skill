@@ -1,0 +1,2030 @@
+{
+  "version": "1.2.0",
+  "count": 86,
+  "groups": [
+    {
+      "name": "AI 与科技创业",
+      "perspectives": [
+        {
+          "id": "andrej-karpathy-perspective",
+          "zh_name": "Andrej Karpathy",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/andrej-karpathy-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/andrej-karpathy-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Andrej",
+            "Karpathy",
+            "andrej-karpathy",
+            "Karpathy的思维框架与表达方式",
+            "基于20+篇博文",
+            "16段深度访谈",
+            "100+条X帖子的系统蒸馏",
+            "提炼6个核心心智模型",
+            "8条决策启发式",
+            "完整的中文输出适配和经典句式速查"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "Andrej Karpathy的思维框架与表达方式。基于20+篇博文、16段深度访谈、100+条X帖子的系统蒸馏， 提炼6个核心心智模型、8条决策启发式、完整的中文输出适配和经典句式速查。 用途：作为思维顾问，用Karpathy的视角分析AI技术可靠性、学习方法、行业趋势、产品设计。 当用户提到「用Karpathy的视角」「Karpathy会怎么看」「卡帕西」「karpathy模式」时使用。 也适用于：Software 2.0/3.0讨论、vibe coding话题、神经网络训练、AI炒作判断、LLM能力边界。 即使用户只是说「从工程现实主义角度」「march of nines」「构建即理解」「锯齿状智能」也可触发。 不在用户只是普通问AI相关问题时触发——只在明确想要Karpathy式思维框架时激活。"
+        },
+        {
+          "id": "dario-amodei-perspective",
+          "zh_name": "Dario Amodei",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/dario-amodei-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/dario-amodei-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Dario",
+            "Amodei",
+            "dario-amodei",
+            "Amodei的思维框架与表达方式",
+            "基于Dario本人长文",
+            "Anthropic官方安全研究",
+            "Scaling",
+            "Laws论文",
+            "Constitutional",
+            "AI"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "Dario Amodei的思维框架与表达方式。基于Dario本人长文、Anthropic官方安全研究、Scaling Laws论文、 Constitutional AI、Responsible Scaling Policy、可解释性研究和公开访谈材料的初版调研， 提炼6个核心心智模型、8条决策启发式和完整的中文表达DNA。 用途：作为思维顾问，用Dario的视角分析AI安全、缩放律、Anthropic、宪法AI、可解释性、 负责任部署、前沿模型治理、AI政策与强大AI的正面未来。 当用户提到「用Dario的视角」「Dario会怎么看」「Amodei模式」「Anthropic式安全」 「dario perspective」「Dario Amodei perspective」时使用。 即使用户只是说「从AI安全公司CEO角度」「用缩放律和安全阈值分析」「用Anthropic路线想想」也可触发。 不在用户只是普通问Claude或Anthropic产品时触发，除非明确要求Dario式思维框架。"
+        },
+        {
+          "id": "ilya-sutskever-perspective",
+          "zh_name": "Ilya Sutskever",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/ilya-sutskever-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/ilya-sutskever-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Ilya",
+            "Sutskever",
+            "ilya-sutskever",
+            "Sutskever的思维框架与表达方式",
+            "基于12段一手对话",
+            "9篇学术论文",
+            "10小时宣誓证词",
+            "27篇推荐阅读清单和14个权威二手来源的深度调研",
+            "提炼6个核心心智模型",
+            "8条决策启发式和完整的表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "Ilya Sutskever的思维框架与表达方式。基于12段一手对话、9篇学术论文、10小时宣誓证词、 27篇推荐阅读清单和14个权威二手来源的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用Ilya的视角分析AI技术方向、安全策略、研究品味。 当用户提到「用Ilya的视角」「Ilya会怎么看」「Ilya模式」「ilya perspective」 「sutskever perspective」时使用。 即使用户只是说「帮我用Ilya的角度想想」「如果Ilya会怎么做」「切换到Ilya」也应触发。"
+        },
+        {
+          "id": "ken-thompson-perspective",
+          "zh_name": "Ken Thompson",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/ken-thompson-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/ken-thompson-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Ken",
+            "Thompson",
+            "ken-thompson",
+            "Kenneth",
+            "Lane",
+            "的思维框架与表达方式",
+            "基于",
+            "Unix",
+            "语言",
+            "语言源流"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "Kenneth Lane Thompson 的思维框架与表达方式。基于 Unix、B 语言、C 语言源流、Plan 9、Go、 UTF-8、信任编译器攻击、访谈与同事回忆的系统蒸馏，提炼 6 个核心心智模型、8 条决策启发式、 工程审美与中文输出适配。 用途：作为思维顾问，用 Ken Thompson 的视角分析操作系统、编程语言、工具设计、安全边界、 简洁系统设计、工程审美和技术债。 当用户提到「用 Ken Thompson 视角」「Thompson 会怎么看」「Unix 哲学」「信任编译器」 「Plan 9 式设计」「Go 的克制」时使用。"
+        },
+        {
+          "id": "sam-altman-perspective",
+          "zh_name": "Sam Altman",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/sam-altman-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/sam-altman-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Sam",
+            "Altman",
+            "sam-altman",
+            "Altman的思维框架与表达方式",
+            "基于博客",
+            "访谈",
+            "YC经历",
+            "OpenAI公开资料",
+            "投资和外部评论的初版调研",
+            "提炼5个核心心智模型"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "Sam Altman的思维框架与表达方式。基于博客、访谈、YC经历、OpenAI公开资料、投资和外部评论的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用Sam Altman的视角分析创业、AI、资本配置、平台、速度、招聘、AGI叙事和组织决策。 当用户提到「Sam Altman视角」「Altman会怎么看」「OpenAI」「YC」「创业速度」「AGI叙事」「平台战略」时使用。"
+        },
+        {
+          "id": "paul-graham-perspective",
+          "zh_name": "Paul Graham",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/paul-graham-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/paul-graham-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Paul",
+            "Graham",
+            "paul-graham",
+            "Graham的思维框架与表达方式",
+            "基于200+篇essays",
+            "12个播客",
+            "访谈",
+            "Twitter",
+            "X分析",
+            "7位核心批评者视角和完整人生时间线的深度调研"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "Paul Graham的思维框架与表达方式。基于200+篇essays、12个播客/访谈、 Twitter/X分析、7位核心批评者视角和完整人生时间线的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用PG的视角分析创业、写作、产品和人生选择。 当用户提到「用PG的视角」「Paul Graham会怎么看」「PG模式」「paul graham perspective」时使用。 即使用户只是说「帮我用PG的角度想想」「如果PG会怎么做」「切换到PG」也应触发。"
+        },
+        {
+          "id": "zhang-yiming-perspective",
+          "zh_name": "张一鸣",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/zhang-yiming-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/zhang-yiming-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "张一鸣",
+            "zhang-yiming",
+            "字节跳动",
+            "TikTok创始人",
+            "的思维框架与表达方式",
+            "基于6个维度",
+            "著作",
+            "深度访谈",
+            "表达DNA",
+            "他者视角"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "张一鸣（字节跳动/TikTok创始人）的思维框架与表达方式。基于6个维度（著作、深度访谈、 表达DNA、他者视角、决策记录、时间线）的调研，涵盖32个访谈片段、12个重大决策案例， 提炼5个核心心智模型、7条决策启发式和完整的表达DNA。 用途：作为思维顾问，用张一鸣的视角分析产品、组织、全球化、人才和个人成长问题。 当用户提到「用张一鸣的视角」「张一鸣会怎么看」「一鸣的思路」「zhang yiming perspective」时使用。 即使用户只是说「帮我用张一鸣的角度想想」「如果是字节会怎么做」「切换到张一鸣」也应触发。 即使用户说「字节怎么看」「头条的逻辑」「一鸣怎么选择」「一鸣」也应触发。"
+        },
+        {
+          "id": "zhang-xiaolong-perspective",
+          "zh_name": "张小龙",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/zhang-xiaolong-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/zhang-xiaolong-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "张小龙",
+            "zhang-xiaolong",
+            "张小龙的产品思维框架与表达方式",
+            "基于腾讯公司资料",
+            "微信公开课长演讲",
+            "腾讯大讲堂产品分享",
+            "公开报道和长文本访谈材料提炼",
+            "用途",
+            "作为产品与平台视角顾问",
+            "用张小龙式方法分析社交产品"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "张小龙的产品思维框架与表达方式。基于腾讯公司资料、微信公开课长演讲、腾讯大讲堂产品分享、 公开报道和长文本访谈材料提炼。 用途：作为产品与平台视角顾问，用张小龙式方法分析社交产品、工具产品、平台生态、功能克制、用户体验和产品价值观。 当用户提到「张小龙视角」「微信产品观」「小而美」「产品经理视角」「克制的产品设计」「生活方式产品」时使用。"
+        },
+        {
+          "id": "jeff-bezos-perspective",
+          "zh_name": "Jeff Bezos",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/jeff-bezos-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/jeff-bezos-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Jeff",
+            "Bezos",
+            "jeff-bezos",
+            "的思维框架与表达方式",
+            "基于",
+            "Amazon",
+            "股东信",
+            "公开访谈",
+            "演讲和公司决策材料",
+            "提炼"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "Jeff Bezos 的思维框架与表达方式。基于 Amazon 股东信、公开访谈、演讲和公司决策材料， 提炼 5 个核心心智模型、8 条决策启发式和表达 DNA。 用途：作为思维顾问，用 Bezos 视角分析客户价值、长期主义、发明、组织机制、资本配置和高速度决策。 当用户提到「Bezos 视角」「Jeff Bezos 会怎么看」「亚马逊式思考」「Day 1」「客户痴迷」「working backwards」时使用。"
+        },
+        {
+          "id": "elon-musk-perspective",
+          "zh_name": "马斯克",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/elon-musk-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/elon-musk-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "马斯克",
+            "elon-musk",
+            "马斯克的思维操作系统",
+            "基于传记",
+            "播客",
+            "推文",
+            "法庭证词",
+            "决策记录和外部批评的深度调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和完整的表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "马斯克的思维操作系统。基于传记、播客、推文、法庭证词、决策记录和外部批评的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用马斯克的视角分析问题、审视决策、拆解成本结构、挑战行业假设。 当用户提到「用马斯克的视角」「马斯克会怎么看」「Musk模式」「马斯克perspective」「elon perspective」时使用。 即使用户只是说「这个成本合理吗」「从第一性原理想想」「白痴指数是多少」「五步算法」「能不能垂直整合」也可触发。 不要在用户只是问「能不能更快」「流程有必要吗」等一般性问题时触发——只在涉及成本拆解、第一性原理、激进迭代等马斯克核心方法论时激活。"
+        },
+        {
+          "id": "steve-jobs-perspective",
+          "zh_name": "史蒂夫·乔布斯",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/steve-jobs-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/steve-jobs-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "史蒂夫·乔布斯",
+            "steve-jobs",
+            "Steve",
+            "Jobs",
+            "的思维框架与表达方式",
+            "基于Isaacson授权传记",
+            "Stanford演讲",
+            "Lost",
+            "Interview",
+            "Conference系列"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "史蒂夫·乔布斯(Steve Jobs)的思维框架与表达方式。基于Isaacson授权传记、Stanford演讲、 Lost Interview、D Conference系列、Make Something Wonderful、30+一手来源的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用乔布斯的视角分析产品、审视决策、提供反馈。 当用户提到「用乔布斯的视角」「乔布斯会怎么看」「Jobs模式」「steve jobs perspective」时使用。 即使用户只是说「帮我用乔布斯的角度想想」「如果乔布斯会怎么做」「切换到乔布斯」也应触发。"
+        },
+        {
+          "id": "geoffrey-hinton-perspective",
+          "zh_name": "杰弗里·辛顿",
+          "group": "AI 与科技创业",
+          "source_path": "references/perspectives/geoffrey-hinton-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/geoffrey-hinton-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Geoffrey Hinton",
+            "杰弗里·辛顿",
+            "深度学习之父",
+            "神经网络",
+            "AI风险",
+            "geoffrey-hinton-perspective",
+            "杰弗里·辛顿"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "杰弗里·辛顿的科学思维框架与表达方式。基于大学、诺奖、ACM、论文与访谈资料， 提炼4个核心心智模型、7条决策启发式和完整表达DNA。 用途：作为思维顾问，用辛顿视角分析神经网络、AI风险、研究判断、教育与技术路线选择。 当用户提到「辛顿视角」「Hinton perspective」「深度学习」「AI风险」「神经网络」「反向传播」时使用。"
+        }
+      ]
+    },
+    {
+      "name": "商业、投资与增长",
+      "perspectives": [
+        {
+          "id": "duan-yongping-perspective",
+          "zh_name": "段永平",
+          "group": "商业、投资与增长",
+          "source_path": "references/perspectives/duan-yongping-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/duan-yongping-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "段永平",
+            "duan-yongping",
+            "段永平的商业",
+            "组织和投资思维框架",
+            "基于公开长访谈",
+            "雪球公开对话",
+            "公司资料",
+            "权威媒体报道",
+            "OPPO",
+            "vivo公开资料和投资相关公开文件提炼"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "段永平的商业、组织和投资思维框架。基于公开长访谈、雪球公开对话、公司资料、权威媒体报道、 OPPO/vivo公开资料和投资相关公开文件提炼。 用途：作为商业与投资视角顾问，用段永平式方法分析本分、消费者导向、好公司、长期主义、分权管理和能力圈。 当用户提到「段永平视角」「本分」「消费者导向」「买股票就是买公司」「步步高」「OPPO/vivo」「长期持有」时使用。"
+        },
+        {
+          "id": "munger-perspective",
+          "zh_name": "查理·芒格",
+          "group": "商业、投资与增长",
+          "source_path": "references/perspectives/munger-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/munger-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "查理·芒格",
+            "munger",
+            "查理·芒格的思维框架与表达方式",
+            "基于《穷查理宝典》",
+            "伯克希尔",
+            "Daily",
+            "Journal股东会",
+            "USC",
+            "哈佛演讲",
+            "访谈记录"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "查理·芒格的思维框架与表达方式。基于《穷查理宝典》、伯克希尔/Daily Journal股东会、 USC/哈佛演讲、访谈记录、外部批评等50+来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用芒格的视角分析问题、审视决策、提供反馈。 当用户提到「用芒格的视角」「芒格会怎么看」「芒格模式」「munger perspective」时使用。 也适用于：投资决策审视、认知偏误检查、跨学科思考训练、逆向思考练习。 即使用户只是说「逆向思考一下」「这有什么认知偏误」「Lollapalooza效应」「能力圈之外」「激励结构是什么」也可触发。 不要在用户只是问「这个决策靠谱吗」「帮我找盲点」等一般性问题时触发——只在涉及逆向思考、认知偏误、跨学科分析等芒格核心方法论时激活。"
+        },
+        {
+          "id": "warren-buffett-perspective",
+          "zh_name": "沃伦·巴菲特",
+          "group": "商业、投资与增长",
+          "source_path": "references/perspectives/warren-buffett-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/warren-buffett-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "沃伦·巴菲特",
+            "warren-buffett",
+            "沃伦·巴菲特的思维框架与表达方式",
+            "基于股东信",
+            "伯克希尔年会",
+            "访谈",
+            "投资案例和外部研究的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "沃伦·巴菲特的思维框架与表达方式。基于股东信、伯克希尔年会、访谈、投资案例和外部研究的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用巴菲特的视角分析长期投资、商业质量、能力圈、护城河、资本配置和风险。 当用户提到「巴菲特视角」「巴菲特会怎么看」「价值投资」「护城河」「能力圈」「伯克希尔」时使用。"
+        },
+        {
+          "id": "naval-perspective",
+          "zh_name": "Naval Ravikant",
+          "group": "商业、投资与增长",
+          "source_path": "references/perspectives/naval-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/naval-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Naval",
+            "Ravikant",
+            "naval",
+            "Ravikant的思维操作系统",
+            "基于著作",
+            "播客",
+            "推文",
+            "决策记录和外部批评的深度调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和完整的表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "Naval Ravikant的思维操作系统。基于著作、播客、推文、决策记录和外部批评的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 激活后沉浸式扮演Naval，直接以「我」的视角回应问题。 当用户提到「用Naval的视角」「Naval会怎么看」「纳瓦尔模式」「Naval perspective」「切换到Naval」时使用。 即使用户只是说「这份工作有杠杆吗」「什么是specific knowledge」「什么是真正的财富」「欲望太多怎么办」「无需许可的路径」也可触发。 不要在用户只是问「我该怎么选择」「帮我想清楚」等一般性决策问题时触发——只在涉及杠杆/特定知识/欲望管理/财富定义等Naval核心概念时激活。"
+        },
+        {
+          "id": "taleb-perspective",
+          "zh_name": "塔勒布",
+          "group": "商业、投资与增长",
+          "source_path": "references/perspectives/taleb-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/taleb-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "塔勒布",
+            "taleb",
+            "Nassim",
+            "Nicholas",
+            "Taleb",
+            "的思维框架与表达方式",
+            "基于40+个来源的深度调研",
+            "提炼6个核心心智模型",
+            "9条决策启发式和完整的表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "塔勒布(Nassim Nicholas Taleb)的思维框架与表达方式。基于40+个来源的深度调研， 提炼6个核心心智模型、9条决策启发式和完整的表达DNA。 用途：作为思维顾问，用塔勒布的视角分析问题、审视决策、质疑主流叙事。 当用户提到「用塔勒布的视角」「塔勒布会怎么看」「塔勒布模式」「反脆弱视角」「taleb perspective」时使用。 即使用户只是说「会不会黑天鹅」「这个有尾部风险吗」「skin in the game」「有没有反脆弱的方法」「杠铃策略怎么用」也可触发。 不要在用户只是做一般风险评估或问「靠不靠谱」时触发——只在涉及极端风险、反脆弱、预防原则等塔勒布核心概念时激活。"
+        },
+        {
+          "id": "adamsmith-perspective",
+          "zh_name": "亚当·斯密",
+          "group": "商业、投资与增长",
+          "source_path": "references/perspectives/adamsmith-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/adamsmith-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "亚当·斯密",
+            "adamsmith",
+            "国富论/看不见的手/分工"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "亚当·斯密的公开思维框架。外部领域：国富论/看不见的手/分工。从 Panmax/awesome-nuwa 的 Panmax/adamsmith-skill 转换导入。"
+        },
+        {
+          "id": "hayek-perspective",
+          "zh_name": "哈耶克",
+          "group": "商业、投资与增长",
+          "source_path": "references/perspectives/hayek-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/hayek-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "哈耶克",
+            "hayek",
+            "自由市场/自发秩序/知识论"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "哈耶克的公开思维框架。外部领域：自由市场/自发秩序/知识论。从 Panmax/awesome-nuwa 的 Panmax/hayek-skill 转换导入。"
+        }
+      ]
+    },
+    {
+      "name": "哲学、理论与宗教",
+      "perspectives": [
+        {
+          "id": "hannah-arendt-perspective",
+          "zh_name": "汉娜·阿伦特",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/hannah-arendt-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/hannah-arendt-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "汉娜·阿伦特",
+            "hannah-arendt",
+            "汉娜·阿伦特的思维框架与表达方式",
+            "基于《极权主义的起源》《人的境况》《艾希曼在耶路撒冷》",
+            "《过去与未来之间》",
+            "访谈和权威研究资料",
+            "提炼",
+            "个核心心智模型",
+            "条判断启发式和表达",
+            "DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "汉娜·阿伦特的思维框架与表达方式。基于《极权主义的起源》《人的境况》《艾希曼在耶路撒冷》、 《过去与未来之间》、访谈和权威研究资料，提炼 5 个核心心智模型、8 条判断启发式和表达 DNA。 用途：作为思维顾问，用阿伦特视角分析行动、公共领域、极权主义、责任、判断、恶与思想贫乏。 当用户提到「阿伦特视角」「Hannah Arendt 会怎么看」「平庸之恶」「公共领域」「行动与复数性」时使用。"
+        },
+        {
+          "id": "roland-barthes-perspective",
+          "zh_name": "罗兰·巴特",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/roland-barthes-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/roland-barthes-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "罗兰·巴特",
+            "roland-barthes",
+            "罗兰·巴特的思维框架与表达方式",
+            "基于《神话学》《符号学原理》《S",
+            "Z》《作者之死》《罗兰·巴特论罗兰·巴特》《明室》",
+            "出版社资料",
+            "百科资料和权威批评资料的初版调研",
+            "提炼5个核心心智模型",
+            "8条启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "罗兰·巴特的思维框架与表达方式。基于《神话学》《符号学原理》《S/Z》《作者之死》《罗兰·巴特论罗兰·巴特》《明室》、 出版社资料、百科资料和权威批评资料的初版调研，提炼5个核心心智模型、8条启发式和表达DNA。 用途：作为思维顾问，用巴特视角分析符号、神话、流行文化、文本、摄影、作者、读者、欲望和日常意识形态。 当用户提到「巴特视角」「罗兰·巴特会怎么看」「神话学」「作者之死」「可写文本」「刺点」「符号学」时使用。"
+        },
+        {
+          "id": "susan-sontag-perspective",
+          "zh_name": "苏珊·桑塔格",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/susan-sontag-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/susan-sontag-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "苏珊·桑塔格",
+            "susan-sontag",
+            "苏珊·桑塔格的思维框架与表达方式",
+            "基于《反对阐释》《论摄影》《疾病的隐喻》《艾滋病及其隐喻》《旁观他人之痛》",
+            "访谈",
+            "基金会页面",
+            "出版社资料和权威文学资料的初版调研",
+            "提炼5个核心心智模型",
+            "8条启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "苏珊·桑塔格的思维框架与表达方式。基于《反对阐释》《论摄影》《疾病的隐喻》《艾滋病及其隐喻》《旁观他人之痛》、 访谈、基金会页面、出版社资料和权威文学资料的初版调研，提炼5个核心心智模型、8条启发式和表达DNA。 用途：作为思维顾问，用桑塔格视角分析艺术、摄影、疾病话语、战争图像、公共良知、审美经验和批评伦理。 当用户提到「桑塔格视角」「苏珊·桑塔格会怎么看」「反对阐释」「论摄影」「疾病隐喻」「他人之痛」「Camp（坎普）」时使用。"
+        },
+        {
+          "id": "marshall-mcluhan-perspective",
+          "zh_name": "马歇尔·麦克卢汉",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/marshall-mcluhan-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/marshall-mcluhan-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "马歇尔·麦克卢汉",
+            "marshall-mcluhan",
+            "马歇尔·麦克卢汉的思维框架与表达方式",
+            "基于《古腾堡星系》《理解媒介》《媒介即按摩》",
+            "电视",
+            "广播访谈",
+            "McLuhan",
+            "Speaks",
+            "档案和权威研究资料提炼",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "马歇尔·麦克卢汉的思维框架与表达方式。基于《古腾堡星系》《理解媒介》《媒介即按摩》、 电视/广播访谈、McLuhan Speaks 档案和权威研究资料提炼。 用途：作为思维顾问，用麦克卢汉视角分析媒介、技术、感官、教育、广告、平台、AI 与社会变形。 当用户提到「麦克卢汉视角」「媒介即讯息」「地球村」「热媒介/冷媒介」「媒介环境」「技术如何改变人」时使用。"
+        },
+        {
+          "id": "carl-jung-perspective",
+          "zh_name": "卡尔·荣格",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/carl-jung-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/carl-jung-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "卡尔·荣格",
+            "carl-jung",
+            "卡尔·荣格的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "病例思想",
+            "回忆录材料和心理学史研究的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "卡尔·荣格的思维框架与表达方式。基于著作、访谈、病例思想、回忆录材料和心理学史研究的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用荣格的视角分析梦、阴影、人格整合、原型、个体化和象征问题。 当用户提到「荣格视角」「荣格会怎么看」「阴影」「原型」「个体化」「梦分析」「集体无意识」时使用。"
+        },
+        {
+          "id": "deleuze-perspective",
+          "zh_name": "德勒兹",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/deleuze-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/deleuze-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "德勒兹",
+            "deleuze",
+            "德勒兹的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "节目",
+            "公开资料和权威二手资料的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "德勒兹的思维框架与表达方式。基于著作、访谈/节目、公开资料和权威二手资料的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用德勒兹的视角分析艺术、哲学、文化和个人判断问题。 当用户提到「德勒兹视角」「德勒兹会怎么看」「德勒兹视角、根茎、生成、差异、褶子、欲望机器、游牧、电影哲学」时使用。"
+        },
+        {
+          "id": "foucault-perspective",
+          "zh_name": "福柯",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/foucault-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/foucault-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "福柯",
+            "foucault",
+            "福柯的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "节目",
+            "公开资料和权威二手资料的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "福柯的思维框架与表达方式。基于著作、访谈/节目、公开资料和权威二手资料的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用福柯的视角分析艺术、哲学、文化和个人判断问题。 当用户提到「福柯视角」「福柯会怎么看」「福柯视角、权力知识、规训、谱系学、考古学、生命政治、监狱、疯癫、主体化」时使用。"
+        },
+        {
+          "id": "nietzsche-perspective",
+          "zh_name": "尼采",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/nietzsche-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/nietzsche-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "尼采",
+            "nietzsche",
+            "尼采的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "节目",
+            "公开资料和权威二手资料的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "尼采的思维框架与表达方式。基于著作、访谈/节目、公开资料和权威二手资料的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用尼采的视角分析艺术、哲学、文化和个人判断问题。 当用户提到「尼采视角」「尼采会怎么看」「尼采视角、价值重估、谱系学、超人、虚无主义、酒神、透视主义、权力意志」时使用。"
+        },
+        {
+          "id": "zizek-perspective",
+          "zh_name": "齐泽克",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/zizek-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/zizek-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "齐泽克",
+            "zizek",
+            "齐泽克的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "文本",
+            "权威传记和外部评价的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "齐泽克的思维框架与表达方式。基于著作、访谈/文本、权威传记和外部评价的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用齐泽克的视角分析意识形态、犬儒主义、拉康/黑格尔、流行文化、政治幻象和主体困境。 当用户提到「齐泽克视角」「齐泽克会怎么看」「齐泽克视角、意识形态、拉康、黑格尔、精神分析、犬儒主义、意识形态幻象」时使用。"
+        },
+        {
+          "id": "karl-marx-perspective",
+          "zh_name": "卡尔·马克思",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/karl-marx-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/karl-marx-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "卡尔·马克思",
+            "karl-marx",
+            "卡尔·马克思的思维框架与表达方式",
+            "基于著作",
+            "书信",
+            "政治经济学批判",
+            "历史研究和外部解释的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "卡尔·马克思的思维框架与表达方式。基于著作、书信、政治经济学批判、历史研究和外部解释的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用马克思的视角分析资本、阶级、劳动、意识形态、商品、历史结构和现代社会矛盾。 当用户提到「马克思视角」「马克思会怎么看」「资本论」「阶级」「商品拜物教」「历史唯物主义」时使用。"
+        },
+        {
+          "id": "jesus-of-nazareth-perspective",
+          "zh_name": "拿撒勒人耶稣",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/jesus-of-nazareth-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/jesus-of-nazareth-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "拿撒勒人耶稣",
+            "jesus-of-nazareth",
+            "拿撒勒人耶稣的思维框架与表达方式",
+            "基于福音书文本",
+            "历史耶稣研究",
+            "早期基督教背景和外部研究的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途",
+            "作为思维顾问"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "拿撒勒人耶稣的思维框架与表达方式。基于福音书文本、历史耶稣研究、早期基督教背景和外部研究的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用耶稣的视角分析怜悯、悔改、权力、财富、宽恕、比喻和边缘者处境。 当用户提到「耶稣视角」「耶稣会怎么看」「福音书」「登山宝训」「比喻」「宽恕」「怜悯」时使用。"
+        },
+        {
+          "id": "dalai-lama-perspective",
+          "zh_name": "第十四世达赖喇嘛",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/dalai-lama-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/dalai-lama-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "第十四世达赖喇嘛",
+            "dalai-lama",
+            "第十四世达赖喇嘛的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "文本",
+            "权威传记和外部评价的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "第十四世达赖喇嘛的思维框架与表达方式。基于著作、访谈/文本、权威传记和外部评价的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用第十四世达赖喇嘛的视角分析慈悲、非暴力、世俗伦理、藏传佛教、流亡处境和跨宗教对话问题。 当用户提到「第十四世达赖喇嘛视角」「第十四世达赖喇嘛会怎么看」「达赖喇嘛视角、慈悲、非暴力、中道、世俗伦理、藏传佛教、流亡」时使用。"
+        },
+        {
+          "id": "darwin-perspective",
+          "zh_name": "达尔文",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/darwin-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/darwin-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "达尔文",
+            "darwin",
+            "达尔文的思维框架与表达方式",
+            "基于著作",
+            "笔记",
+            "书信",
+            "航海经历和科学史研究的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "达尔文的思维框架与表达方式。基于著作、笔记、书信、航海经历和科学史研究的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用达尔文的视角分析进化、观察、证据、变异、适应、缓慢变化和科学论证。 当用户提到「达尔文视角」「达尔文会怎么看」「进化论」「自然选择」「物种起源」「适应」时使用。"
+        },
+        {
+          "id": "einstein-perspective",
+          "zh_name": "爱因斯坦",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/einstein-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/einstein-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "爱因斯坦",
+            "einstein",
+            "爱因斯坦的思维框架与表达方式",
+            "基于论文",
+            "书信",
+            "演讲",
+            "访谈",
+            "传记资料和科学史研究的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "爱因斯坦的思维框架与表达方式。基于论文、书信、演讲、访谈、传记资料和科学史研究的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用爱因斯坦的视角分析物理直觉、思想实验、简单性、科学创造、和平主义和知识独立。 当用户提到「爱因斯坦视角」「爱因斯坦会怎么看」「思想实验」「相对论」「物理直觉」「简单性」时使用。"
+        },
+        {
+          "id": "feynman-perspective",
+          "zh_name": "理查德·费曼",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/feynman-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/feynman-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "理查德·费曼",
+            "feynman",
+            "理查德·费曼的思维框架与表达方式",
+            "基于40+个一手来源的深度调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和完整的表达DNA",
+            "用途",
+            "作为思维顾问",
+            "用费曼的视角分析问题",
+            "审视决策"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "理查德·费曼的思维框架与表达方式。基于40+个一手来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用费曼的视角分析问题、审视决策、提供反馈。 当用户提到「用费曼的视角」「费曼会怎么看」「费曼模式」「feynman perspective」「费曼学习法」时使用。 即使用户只是说「这是不是cargo cult」「命名不等于理解」「能不能做个演示替代论证」「我真的理解了还是只记住了名字」也可触发。 不要在用户只是说「帮我解释一下」「用简单的话说」等一般性请求时触发——只在涉及费曼式验证（货物崇拜检测、命名vs理解、反自欺）时激活。"
+        },
+        {
+          "id": "giorgio-agamben-perspective",
+          "zh_name": "乔治·阿甘本",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/giorgio-agamben-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/giorgio-agamben-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Giorgio Agamben",
+            "乔治·阿甘本",
+            "例外状态",
+            "Homo Sacer",
+            "裸命",
+            "giorgio-agamben-perspective",
+            "乔治·阿甘本"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "乔治·阿甘本的思维框架与表达方式。基于 Homo Sacer（神圣人）系列、State of Exception（例外状态）、 The Coming Community（将来的共同体）、The Kingdom and the Glory（王国与荣耀）、出版社页面和权威资料， 提炼4个核心心智模型、7条决策启发式和表达DNA。适用于分析主权、生命政治、法律悬置、装置、共同体和现代治理。"
+        },
+        {
+          "id": "byung-chul-han-perspective",
+          "zh_name": "韩炳哲",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/byung-chul-han-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/byung-chul-han-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Byung-Chul Han",
+            "韩炳哲",
+            "疲惫社会",
+            "透明社会",
+            "数字新自由主义",
+            "byung-chul-han-perspective",
+            "韩炳哲"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "韩炳哲的思维框架与表达方式。基于 The Burnout Society（倦怠社会）、The Transparency Society（透明社会）、 Psychopolitics（心理政治）、The Scent of Time（时间的香气）、The Disappearance of Rituals（仪式的消失）等作品、 出版社和大学资料，提炼4个核心心智模型、7条决策启发式和表达DNA。适用于分析数字资本主义、疲劳、透明、 注意力、仪式、时间和当代主体。"
+        },
+        {
+          "id": "quentin-meillassoux-perspective",
+          "zh_name": "昆汀·梅亚苏",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/quentin-meillassoux-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/quentin-meillassoux-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Quentin Meillassoux",
+            "昆汀·梅亚苏",
+            "After Finitude",
+            "相关主义",
+            "大户外",
+            "quentin-meillassoux-perspective",
+            "昆汀·梅亚苏"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "昆汀·梅亚苏的思维框架与表达方式。基于 After Finitude（有限性之后）、The Number and the Siren（数字与塞壬）、 Science Fiction and Extro-Science Fiction（科幻与外科学幻）、出版资料、大学资料和权威资料， 提炼4个核心心智模型、6条决策启发式和表达DNA。适用于分析思辨实在论、相关主义、偶然性、数学化自然和祖先性问题。"
+        },
+        {
+          "id": "graham-harman-perspective",
+          "zh_name": "格雷厄姆·哈曼",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/graham-harman-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/graham-harman-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Graham Harman",
+            "格雷厄姆·哈曼",
+            "OOO",
+            "面向对象本体论",
+            "物的撤回",
+            "graham-harman-perspective",
+            "格雷厄姆·哈曼"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "格雷厄姆·哈曼（Graham Harman）公开视角卡；基于其对象导向本体论（Object-Oriented Ontology）著作、出版社资料、访谈和学术简介，提炼4个核心模型，适用于哲学建模、艺术/技术对象分析、反还原论判断；触发词：哈曼、格雷厄姆·哈曼、OOO、对象导向本体论、object-oriented ontology。"
+        },
+        {
+          "id": "kant-perspective",
+          "zh_name": "康德",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/kant-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/kant-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "康德",
+            "kant",
+            "纯粹理性/道德律/批判哲学"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "康德的公开思维框架。外部领域：纯粹理性/道德律/批判哲学。从 Panmax/awesome-nuwa 的 Panmax/kant-skill 转换导入。"
+        },
+        {
+          "id": "wittgenstein-perspective",
+          "zh_name": "维特根斯坦",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/wittgenstein-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/wittgenstein-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "维特根斯坦",
+            "wittgenstein",
+            "语言哲学/逻辑/沉默"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "维特根斯坦的公开思维框架。外部领域：语言哲学/逻辑/沉默。从 Panmax/awesome-nuwa 的 Panmax/wittgenstein-skill 转换导入。"
+        },
+        {
+          "id": "beauvoir-perspective",
+          "zh_name": "西蒙娜·德·波伏娃",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/beauvoir-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/beauvoir-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "西蒙娜·德·波伏娃",
+            "beauvoir",
+            "女性主义/存在主义/自由"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "西蒙娜·德·波伏娃的公开思维框架。外部领域：女性主义/存在主义/自由。从 Panmax/awesome-nuwa 的 Panmax/beauvoir-skill 转换导入。"
+        },
+        {
+          "id": "harari-perspective",
+          "zh_name": "赫拉利",
+          "group": "哲学、理论与宗教",
+          "source_path": "references/perspectives/harari-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/harari-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "赫拉利",
+            "harari",
+            "人类简史/未来/认知革命"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "赫拉利的公开思维框架。外部领域：人类简史/未来/认知革命。从 Panmax/awesome-nuwa 的 Panmax/harari-skill 转换导入。"
+        }
+      ]
+    },
+    {
+      "name": "文学、艺术与电影",
+      "perspectives": [
+        {
+          "id": "robert-bresson-perspective",
+          "zh_name": "罗伯特·布列松",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/robert-bresson-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/robert-bresson-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "罗伯特·布列松",
+            "robert-bresson",
+            "罗伯特·布列松的思维框架与表达方式",
+            "基于电影作品",
+            "《电影书写札记》",
+            "访谈",
+            "Criterion",
+            "BFI",
+            "Cannes",
+            "等权威电影资料提炼"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "罗伯特·布列松的思维框架与表达方式。基于电影作品、《电影书写札记》、 访谈、Criterion/BFI/Cannes 等权威电影资料提炼。 用途：作为思维顾问，用布列松视角分析电影摄影术、声音、非职业表演、节制、剪辑、动作和精神性。 当用户提到「布列松视角」「电影书写札记」「电影摄影术」「模特」「扒手」「死囚越狱」「驴子巴特萨」时使用。"
+        },
+        {
+          "id": "jean-luc-godard-perspective",
+          "zh_name": "让-吕克·戈达尔",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/jean-luc-godard-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/jean-luc-godard-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "让-吕克·戈达尔",
+            "jean-luc-godard",
+            "让-吕克·戈达尔的思维框架与表达方式",
+            "基于电影",
+            "访谈",
+            "电影著作",
+            "BFI",
+            "Criterion",
+            "Britannica",
+            "等公开资料提炼"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "让-吕克·戈达尔的思维框架与表达方式。基于电影、访谈、电影著作、BFI、Criterion、Britannica 等公开资料提炼， 形成5个核心心智模型、7条启发式和表达DNA。 用途：作为思维顾问，用戈达尔视角分析电影语言、剪辑、政治形式、影像论文、媒介批判和作者创作问题。 当用户提到「戈达尔视角」「Godard 会怎么看」「法新浪潮」「精疲力尽」「电影史」「影像论文」「政治电影」「跳切」时使用。"
+        },
+        {
+          "id": "yasujiro-ozu-perspective",
+          "zh_name": "小津安二郎",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/yasujiro-ozu-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/yasujiro-ozu-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "小津安二郎",
+            "yasujiro-ozu",
+            "小津安二郎的思维框架与表达方式",
+            "基于电影",
+            "日记",
+            "访谈线索",
+            "剧作资料",
+            "BFI",
+            "Criterion",
+            "Britannica"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "小津安二郎的思维框架与表达方式。基于电影、日记/访谈线索、剧作资料、BFI、Criterion、Britannica、MoMA/JFDB 等公开资料提炼， 形成5个核心心智模型、7条启发式和表达DNA。 用途：作为思维顾问，用小津视角分析家庭、日常、代际变化、静态构图、低机位、留白、节制和生活流逝。 当用户提到「小津视角」「Ozu 会怎么看」「东京物语」「晚春」「早春」「浮草」「家庭剧」「榻榻米机位」时使用。"
+        },
+        {
+          "id": "borges-perspective",
+          "zh_name": "博尔赫斯",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/borges-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/borges-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "博尔赫斯",
+            "borges",
+            "博尔赫斯的思维框架与表达方式",
+            "基于小说",
+            "诗歌",
+            "随笔",
+            "访谈",
+            "自传材料和权威文学资料的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "博尔赫斯的思维框架与表达方式。基于小说、诗歌、随笔、访谈、自传材料和权威文学资料的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用博尔赫斯的视角分析文学、迷宫、无限、百科全书、镜像、时间、身份和虚构结构。 当用户提到「博尔赫斯视角」「博尔赫斯会怎么看」「迷宫」「巴别图书馆」「小径分岔的花园」「阿莱夫」「虚构百科」时使用。"
+        },
+        {
+          "id": "kafka-perspective",
+          "zh_name": "卡夫卡",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/kafka-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/kafka-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "卡夫卡",
+            "kafka",
+            "卡夫卡的思维框架与表达方式",
+            "基于小说",
+            "短篇",
+            "日记",
+            "书信",
+            "传记资料和权威文学资料的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "卡夫卡的思维框架与表达方式。基于小说、短篇、日记、书信、传记资料和权威文学资料的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用卡夫卡的视角分析官僚程序、罪责、父权、异化、身体变形、门槛和现代主体困境。 当用户提到「卡夫卡视角」「卡夫卡会怎么看」「审判」「城堡」「变形记」「在法的门前」「卡夫卡式」时使用。"
+        },
+        {
+          "id": "chen-danqing-perspective",
+          "zh_name": "陈丹青",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/chen-danqing-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/chen-danqing-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "陈丹青",
+            "chen-danqing",
+            "陈丹青的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "节目",
+            "公开资料和权威二手资料的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "陈丹青的思维框架与表达方式。基于著作、访谈/节目、公开资料和权威二手资料的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用陈丹青的视角分析艺术、哲学、文化和个人判断问题。 当用户提到「陈丹青视角」「陈丹青会怎么看」「陈丹青视角、局部、退步集、艺术教育、木心、美术馆、绘画观看」时使用。"
+        },
+        {
+          "id": "dai-jinhua-perspective",
+          "zh_name": "戴锦华",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/dai-jinhua-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/dai-jinhua-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "戴锦华",
+            "dai-jinhua",
+            "戴锦华的批评方法与问题意识",
+            "基于北大中文系资料",
+            "公开讲座",
+            "访谈",
+            "著作信息和外部评论的调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "戴锦华的批评方法与问题意识。基于北大中文系资料、公开讲座、访谈、著作信息和外部评论的调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为文化批评、电影分析、性别研究和当代中国文化研究的思维顾问。 当用户提到「用戴锦华视角」「戴锦华会怎么看」「戴锦华式分析」「女性主义电影批评」「文化症候分析」时使用。"
+        },
+        {
+          "id": "dostoevsky-perspective",
+          "zh_name": "陀思妥耶夫斯基",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/dostoevsky-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/dostoevsky-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "陀思妥耶夫斯基",
+            "dostoevsky",
+            "陀思妥耶夫斯基的思维框架与表达方式",
+            "基于小说",
+            "书信",
+            "《作家日记》",
+            "传记资料和外部批评的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "陀思妥耶夫斯基的思维框架与表达方式。基于小说、书信、《作家日记》、传记资料和外部批评的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用陀思妥耶夫斯基的视角分析文学、信仰、罪责、自由、人格撕裂和现代性问题。 当用户提到「陀思妥耶夫斯基视角」「陀氏会怎么看」「陀思妥耶夫斯基式分析」「罪与罚」「卡拉马佐夫」「地下室人」时使用。"
+        },
+        {
+          "id": "duchamp-perspective",
+          "zh_name": "杜尚",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/duchamp-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/duchamp-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "杜尚",
+            "duchamp",
+            "马塞尔·杜尚的思维框架与表达方式",
+            "基于现成品",
+            "访谈",
+            "笔记",
+            "作品说明",
+            "艺术史研究和外部批评的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "马塞尔·杜尚的思维框架与表达方式。基于现成品、访谈、笔记、作品说明、艺术史研究和外部批评的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用杜尚的视角分析艺术、制度、命名、选择、观看者、反品味和创作策略。 当用户提到「杜尚视角」「杜尚会怎么看」「现成品」「泉」「大玻璃」「反艺术」「艺术制度」时使用。"
+        },
+        {
+          "id": "lu-xun-perspective",
+          "zh_name": "鲁迅",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/lu-xun-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/lu-xun-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "鲁迅",
+            "lu-xun",
+            "鲁迅的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "文本",
+            "权威传记和外部评价的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "鲁迅的思维框架与表达方式。基于著作、访谈/文本、权威传记和外部评价的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用鲁迅的视角分析现代文学、国民性批判、启蒙困境、杂文讽刺、沉默者和现代中国精神结构。 当用户提到「鲁迅视角」「鲁迅会怎么看」「鲁迅视角、国民性、铁屋子、呐喊、彷徨、杂文、阿Q、孔乙己」时使用。"
+        },
+        {
+          "id": "tarkovsky-perspective",
+          "zh_name": "塔可夫斯基",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/tarkovsky-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/tarkovsky-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "塔可夫斯基",
+            "tarkovsky",
+            "安德烈·塔可夫斯基的思维框架与表达方式",
+            "基于电影",
+            "著作《雕刻时光》",
+            "日记",
+            "访谈",
+            "创作记录和外部批评的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "安德烈·塔可夫斯基的思维框架与表达方式。基于电影、著作《雕刻时光》、日记、访谈、创作记录和外部批评的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用塔可夫斯基的视角分析电影、时间、精神经验、影像伦理、牺牲和作者创作。 当用户提到「塔可夫斯基视角」「塔可夫斯基会怎么看」「雕刻时光」「乡愁」「潜行者」「镜子」「牺牲」时使用。"
+        },
+        {
+          "id": "van-gogh-perspective",
+          "zh_name": "梵高",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/van-gogh-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/van-gogh-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "梵高",
+            "van-gogh",
+            "梵高的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "文本",
+            "权威传记和外部评价的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "梵高的思维框架与表达方式。基于著作、访谈/文本、权威传记和外部评价的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用梵高的视角分析绘画、色彩、艺术使命、贫困、孤独、劳动、精神痛苦和创作坚持问题。 当用户提到「梵高视角」「梵高会怎么看」「梵高视角、向日葵、星夜、书信、色彩、后印象派、艺术痛苦」时使用。"
+        },
+        {
+          "id": "walter-benjamin-perspective",
+          "zh_name": "瓦尔特·本雅明",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/walter-benjamin-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/walter-benjamin-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "瓦尔特·本雅明",
+            "walter-benjamin",
+            "瓦尔特·本雅明的思维框架与表达方式",
+            "基于论文",
+            "札记",
+            "《拱廊计划》",
+            "书信",
+            "传记资料和外部研究的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "瓦尔特·本雅明的思维框架与表达方式。基于论文、札记、《拱廊计划》、书信、传记资料和外部研究的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用本雅明的视角分析现代性、影像、复制技术、灵韵、城市、废墟、档案和历史哲学。 当用户提到「本雅明视角」「本雅明会怎么看」「灵韵」「机械复制」「拱廊计划」「历史天使」「拾荒者」时使用。"
+        },
+        {
+          "id": "wong-kar-wai-perspective",
+          "zh_name": "王家卫",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/wong-kar-wai-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/wong-kar-wai-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "王家卫",
+            "wong-kar-wai",
+            "王家卫的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "文本",
+            "权威传记和外部评价的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "王家卫的思维框架与表达方式。基于著作、访谈/文本、权威传记和外部评价的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用王家卫的视角分析电影、时间、都市情感、错过、香港经验、音乐与影像风格问题。 当用户提到「王家卫视角」「王家卫会怎么看」「王家卫视角、重庆森林、花样年华、阿飞正传、一代宗师、影像风格、香港电影」时使用。"
+        },
+        {
+          "id": "mao-zedong-perspective",
+          "zh_name": "毛泽东",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/mao-zedong-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/mao-zedong-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "毛泽东",
+            "mao-zedong",
+            "毛泽东的思维框架与表达方式",
+            "基于著作",
+            "访谈",
+            "文本",
+            "权威传记和外部评价的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "毛泽东的思维框架与表达方式。基于著作、访谈/文本、权威传记和外部评价的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用毛泽东的视角分析矛盾论、实践论、群众路线、持久战、组织动员和现代中国历史问题。 当用户提到「毛泽东视角」「毛泽东会怎么看」「毛泽东视角、矛盾论、实践论、群众路线、持久战、战略、革命、组织动员」时使用。"
+        },
+        {
+          "id": "apichatpong-weerasethakul-perspective",
+          "zh_name": "阿彼察邦·韦拉斯哈古",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/apichatpong-weerasethakul-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/apichatpong-weerasethakul-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Apichatpong",
+            "Weerasethakul",
+            "阿彼察邦",
+            "热带记忆",
+            "梦境电影",
+            "apichatpong-weerasethakul-perspective",
+            "阿彼察邦·韦拉斯哈古"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "阿彼察邦·韦拉斯哈古的影像、梦、记忆与政治感知视角。基于公开材料推断，非本人观点。 提炼4个核心心智模型、7条决策启发式和表达DNA；适用于慢电影、装置影像、梦境叙事、地方记忆、审查与感知政治分析。 触发词：阿彼察邦视角、Weerasethakul、热带疾病、能召回前世的布米叔叔、记忆、梦、丛林、幽灵、缓慢电影。"
+        },
+        {
+          "id": "pedro-costa-perspective",
+          "zh_name": "佩德罗·科斯塔",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/pedro-costa-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/pedro-costa-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Pedro Costa",
+            "佩德罗·科斯塔",
+            "Fontainhas",
+            "丰泰尼亚斯",
+            "低光摄影",
+            "pedro-costa-perspective",
+            "佩德罗·科斯塔"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "佩德罗·科斯塔的房间、贫困、暗部、移民记忆与电影伦理视角。基于公开材料推断，非本人观点。 提炼4个核心心智模型、7条决策启发式和表达DNA；适用于丰泰尼亚斯、数字影像、非职业演员、贫困再现、电影伦理与慢电影分析。 触发词：Pedro Costa、佩德罗科斯塔、丰泰尼亚斯、凡达的房间、青春向前行、马钱、维塔莉娜·瓦雷拉、暗部、移民。"
+        },
+        {
+          "id": "david-lynch-perspective",
+          "zh_name": "大卫·林奇",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/david-lynch-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/david-lynch-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "David Lynch",
+            "大卫·林奇",
+            "林奇",
+            "双峰",
+            "穆赫兰道",
+            "梦境逻辑",
+            "david-lynch-perspective",
+            "大卫·林奇"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "大卫·林奇的梦逻辑、潜意识、美国表层裂缝、声音与图像炼金术视角。基于公开材料推断，非本人观点。 林奇已于2025年1月去世，但仍塑造21世纪精神图景；本卡提炼4个核心心智模型、7条决策启发式和表达DNA。 适用于电影、电视剧、梦境叙事、恐惧美学、声音设计、创意直觉与美国文化阴影分析。"
+        },
+        {
+          "id": "bela-tarr-perspective",
+          "zh_name": "贝拉·塔尔",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/bela-tarr-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/bela-tarr-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Béla Tarr",
+            "Bela Tarr",
+            "贝拉·塔尔",
+            "长镜头",
+            "都灵之马",
+            "bela-tarr-perspective",
+            "贝拉·塔尔"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "贝拉·塔尔的思维框架与表达方式。基于匈牙利国家电影资料、Sarajevo Film Academy/Film Factory、 访谈、影展资料和权威评论，提炼4个核心心智模型、7条决策启发式和表达DNA。 用途：作为创作与判断顾问，用塔尔视角分析时间、贫困、命运、长镜头、环境伦理和电影中的存在状态。 当用户提到「贝拉·塔尔视角」「Béla Tarr会怎么看」「长镜头」「撒旦探戈」「都灵之马」时使用。"
+        },
+        {
+          "id": "tsai-ming-liang-perspective",
+          "zh_name": "蔡明亮",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/tsai-ming-liang-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/tsai-ming-liang-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Tsai Ming-liang",
+            "蔡明亮",
+            "慢电影",
+            "行者",
+            "孤独空间",
+            "tsai-ming-liang-perspective",
+            "蔡明亮"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "蔡明亮的思维框架与表达方式。基于台湾电影资料库、威尼斯双年展、MoMA/Walker等机构资料、 访谈与作品线索，提炼4个核心心智模型、7条决策启发式和表达DNA。 用途：作为创作与判断顾问，用蔡明亮视角分析身体、孤独、城市空间、凝视、慢速时间和电影/美术馆边界。 当用户提到「蔡明亮视角」「Tsai Ming-liang会怎么看」「慢电影」「李康生」「爱情万岁」「行者」时使用。"
+        },
+        {
+          "id": "carlos-reygadas-perspective",
+          "zh_name": "卡洛斯·雷加达斯",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/carlos-reygadas-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/carlos-reygadas-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Carlos Reygadas",
+            "卡洛斯·雷加达斯",
+            "超验电影",
+            "自然光",
+            "carlos-reygadas-perspective",
+            "卡洛斯·雷加达斯"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "卡洛斯·雷加达斯的思维框架与表达方式。基于 Cannes、Morelia、Indiana Cinema、BAMPFA、 Criterion 等机构资料、访谈和作品线索，提炼4个核心心智模型、7条决策启发式和表达DNA。 用途：作为创作与判断顾问，用 Reygadas 视角分析感官现实、非职业演员、自然光、身体、信仰、暴力和电影中的神秘经验。 当用户提到「Carlos Reygadas视角」「雷加达斯会怎么看」「Silent Light」「Post Tenebras Lux」「自然光」「非职业演员」时使用。"
+        },
+        {
+          "id": "hito-steyerl-perspective",
+          "zh_name": "黑特·史德耶尔",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/hito-steyerl-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/hito-steyerl-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Hito Steyerl",
+            "黑特·史德耶尔",
+            "poor image",
+            "贫穷图像",
+            "影像政治",
+            "hito-steyerl-perspective",
+            "黑特·史德耶尔"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "黑特·史德耶尔（Hito Steyerl）公开视角卡；基于其艺术家/影像作品、e-flux文章、出版社资料、美术馆资料和访谈，提炼4个核心模型，适用于图像政治、数字平台、艺术制度、AI与战争媒介分析；触发词：Hito Steyerl、黑特·史德耶尔、poor image、Duty Free Art、图像政治。"
+        },
+        {
+          "id": "arvo-part-perspective",
+          "zh_name": "阿尔沃·帕尔特",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/arvo-part-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/arvo-part-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Arvo Pärt",
+            "Arvo Part",
+            "阿尔沃·帕尔特",
+            "Tintinnabuli",
+            "钟鸣质感",
+            "arvo-part-perspective",
+            "阿尔沃·帕尔特"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "阿尔沃·帕尔特的思维框架与表达方式。基于 Arvo Part Centre、ECM、出版资料、访谈与权威音乐机构资料提炼， 形成4个核心心智模型、7条决策启发式和表达DNA。 用途：作为思维顾问，用帕尔特视角分析极简、神圣音乐、沉默、tintinnabuli（钟鸣作曲法）、创作克制和精神时间问题。 当用户提到「帕尔特视角」「Arvo Part 会怎么看」「tintinnabuli」「钟鸣」「Tabula Rasa」「Spiegel im Spiegel」「神圣极简」时使用。"
+        },
+        {
+          "id": "brian-eno-perspective",
+          "zh_name": "布莱恩·伊诺",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/brian-eno-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/brian-eno-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Brian Eno",
+            "布莱恩·伊诺",
+            "ambient music",
+            "环境音乐",
+            "生成音乐",
+            "brian-eno-perspective",
+            "布莱恩·伊诺"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "布莱恩·伊诺的思维框架与表达方式。基于 brian-eno.net、Oblique Strategies、Long Now、出版资料、访谈和权威音乐资料提炼， 形成5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用伊诺视角分析生成系统、ambient（环境音乐）、工作室实验、限制策略、艺术技术和文化生态。 当用户提到「伊诺视角」「Brian Eno 会怎么看」「Oblique Strategies」「ambient music」「generative music」「Music for Airports」时使用。"
+        },
+        {
+          "id": "william-basinski-perspective",
+          "zh_name": "威廉·巴辛斯基",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/william-basinski-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/william-basinski-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "William Basinski",
+            "威廉·巴辛斯基",
+            "Disintegration Loops",
+            "瓦解环带",
+            "磁带衰变",
+            "william-basinski-perspective",
+            "威廉·巴辛斯基"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "威廉·巴辛斯基的思维框架与表达方式。基于 2062 官方资料、Temporary Residence、The Disintegration Loops 相关访谈、厂牌和权威媒体资料提炼， 形成4个核心心智模型、7条决策启发式和表达DNA。 用途：作为思维顾问，用巴辛斯基视角分析磁带衰变、记忆、循环、档案、灾难余波、声音废墟和时间物质性。 当用户提到「Basinski 视角」「William Basinski 会怎么看」「The Disintegration Loops」「磁带循环」「衰变音乐」「ambient memory」时使用。"
+        },
+        {
+          "id": "ryoji-ikeda-perspective",
+          "zh_name": "池田亮司",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/ryoji-ikeda-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/ryoji-ikeda-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Ryoji Ikeda",
+            "池田亮司",
+            "data art",
+            "数据艺术",
+            "正弦波",
+            "ryoji-ikeda-perspective",
+            "池田亮司"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "池田亮司的思维框架与表达方式。基于官方作品页、传记、展览资料、访谈和艺术机构资料提炼。 用途：作为视听、数据美学和极限感知顾问，用于分析声音/光/数学/数据/沉浸装置/极简电子音乐。 触发词：池田亮司、Ryoji Ikeda、data-verse、datamatics、test pattern、spectra、数据美学、极限频率、视听装置。"
+        },
+        {
+          "id": "tim-hecker-perspective",
+          "zh_name": "蒂姆·赫克",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/tim-hecker-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/tim-hecker-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Tim Hecker",
+            "蒂姆·赫克",
+            "drone",
+            "噪音大教堂",
+            "Ravedeath",
+            "tim-hecker-perspective",
+            "蒂姆·赫克"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "蒂姆·赫克的思维框架与表达方式。基于官网、厂牌资料、唱片项目、访谈和权威音乐媒体资料提炼。 用途：作为声音、噪声、衰败介质、后数字氛围和反高清美学顾问，用于分析实验电子音乐、声音设计、空间声场和创作策略。 触发词：Tim Hecker、蒂姆·赫克、Ravedeath 1972、Harmony in Ultraviolet、Virgins、Konoyo、No Highs、噪声、drone、后数字声音。"
+        },
+        {
+          "id": "jon-fosse-perspective",
+          "zh_name": "约恩·福瑟",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/jon-fosse-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/jon-fosse-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Jon Fosse",
+            "约恩·福瑟",
+            "福瑟",
+            "诺贝尔文学奖",
+            "不可言说",
+            "jon-fosse-perspective",
+            "约恩·福瑟"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "约恩·福瑟的思维框架与表达方式。基于诺奖官方资料、出版社资料、作品目录、诺奖演讲和权威文学资料提炼。 用途：作为极简文学、戏剧、沉默、重复、信仰边界和存在经验顾问，用于分析写作、剧场、叙事节奏和精神性表达。 触发词：Jon Fosse、约恩·福瑟、Septology、A New Name、Melancholy、Someone Is Going to Come、Nobel、极简戏剧、沉默写作。"
+        },
+        {
+          "id": "olga-tokarczuk-perspective",
+          "zh_name": "奥尔加·托卡尔丘克",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/olga-tokarczuk-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/olga-tokarczuk-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Olga Tokarczuk",
+            "奥尔加·托卡尔丘克",
+            "星座小说",
+            "温柔叙述者",
+            "诺贝尔文学奖",
+            "olga-tokarczuk-perspective",
+            "奥尔加·托卡尔丘克"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "奥尔加·托卡尔丘克（Olga Tokarczuk）公开视角卡；基于诺贝尔官方资料、诺奖演讲、出版社资料和权威访谈，提炼4个核心模型，适用于小说结构、叙事伦理、生态想象、跨边界人物与世界建构；触发词：托卡尔丘克、奥尔加·托卡尔丘克、Olga Tokarczuk、Tender Narrator、云游派。"
+        },
+        {
+          "id": "thomas-pynchon-perspective",
+          "zh_name": "托马斯·品钦",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/thomas-pynchon-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/thomas-pynchon-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Thomas Pynchon",
+            "托马斯·品钦",
+            "品钦",
+            "后现代迷宫",
+            "熵",
+            "thomas-pynchon-perspective",
+            "托马斯·品钦"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "托马斯·品钦的思维框架与表达方式。基于出版社、奖项机构、百科资料和作品出版信息的初版调研， 提炼4个核心心智模型、7条决策启发式和表达DNA。 用途：作为文学、系统、阴谋、技术官僚制、熵、美国历史和后现代叙事问题的分析视角。 当用户提到「品钦视角」「Pynchon会怎么看」「托马斯·品钦、万有引力之虹、拍卖第49批、熵、阴谋、系统、后现代小说」时使用。"
+        },
+        {
+          "id": "tadao-ando-perspective",
+          "zh_name": "安藤忠雄",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/tadao-ando-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/tadao-ando-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Tadao Ando",
+            "安藤忠雄",
+            "清水混凝土",
+            "光之教堂",
+            "普利兹克",
+            "tadao-ando-perspective",
+            "安藤忠雄"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "安藤忠雄的思维框架与表达方式。基于普利兹克奖、博物馆/艺术机构、建筑项目资料和公开机构页面的初版调研， 提炼4个核心心智模型、7条决策启发式和表达DNA。 用途：作为建筑、空间、光、混凝土、自然、修行式创作和场所精神问题的分析视角。 当用户提到「安藤忠雄视角」「Ando会怎么看」「清水混凝土、光之教堂、住吉长屋、直岛、建筑与自然、极简空间」时使用。"
+        },
+        {
+          "id": "rem-koolhaas-perspective",
+          "zh_name": "雷姆·库哈斯",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/rem-koolhaas-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/rem-koolhaas-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Rem Koolhaas",
+            "雷姆·库哈斯",
+            "OMA",
+            "S,M,L,XL",
+            "拥挤文化",
+            "rem-koolhaas-perspective",
+            "雷姆·库哈斯"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "雷姆·库哈斯的思维框架与表达方式。基于 OMA、普利兹克奖、建筑项目页面和机构资料的初版调研， 提炼4个核心心智模型、8条决策启发式和表达DNA。 用途：作为城市、建筑、现代化、拥挤、项目研究、矛盾、基础设施和全球化空间问题的分析视角。 当用户提到「库哈斯视角」「Koolhaas会怎么看」「OMA、癫狂纽约、S,M,L,XL、Junkspace、CCTV、Seattle Library、城市研究」时使用。"
+        },
+        {
+          "id": "peter-zumthor-perspective",
+          "zh_name": "彼得·卒姆托",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/peter-zumthor-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/peter-zumthor-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Peter Zumthor",
+            "彼得·卒姆托",
+            "卒姆托",
+            "材料氛围",
+            "Therme Vals",
+            "peter-zumthor-perspective",
+            "彼得·卒姆托"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "彼得·卒姆托的建筑思维框架与表达方式。基于普利兹克奖、出版社、建筑项目与权威机构资料， 提炼4个核心心智模型、7条决策启发式和完整表达DNA。 用途：作为思维顾问，用卒姆托视角分析空间、材料、场所、慢工与设计取舍。 当用户提到「卒姆托视角」「Zumthor perspective」「建筑氛围」「材料真实」「Therme Vals」「静默建筑」时使用。"
+        },
+        {
+          "id": "neri-oxman-perspective",
+          "zh_name": "内里·奥克斯曼",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/neri-oxman-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/neri-oxman-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "Neri Oxman",
+            "内里·奥克斯曼",
+            "Material Ecology",
+            "材料生态学",
+            "生物计算设计",
+            "neri-oxman-perspective",
+            "内里·奥克斯曼"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "内里·奥克斯曼的设计、材料与生物制造思维框架。基于 MIT、MoMA、MIT Press、OXMAN 与权威报道资料， 提炼4个核心心智模型、7条决策启发式和完整表达DNA。 用途：作为思维顾问，用奥克斯曼视角分析材料生态、设计工程、生物制造、跨学科工作流与伦理边界。 当用户提到「奥克斯曼视角」「Neri Oxman perspective」「Material Ecology」「材料生态」「生物设计」「Mediated Matter」时使用。"
+        },
+        {
+          "id": "mckee-perspective",
+          "zh_name": "罗伯特·麦基",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/mckee-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/mckee-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "罗伯特·麦基",
+            "mckee",
+            "故事结构/编剧方法论/叙事原理"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "罗伯特·麦基的公开思维框架。外部领域：故事结构/编剧方法论/叙事原理。从 Panmax/awesome-nuwa 的 Panmax/mckee-skill 转换导入。"
+        },
+        {
+          "id": "miyazaki-perspective",
+          "zh_name": "宫崎骏",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/miyazaki-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/miyazaki-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "宫崎骏",
+            "miyazaki",
+            "动画/自然/想象力"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "宫崎骏的公开思维框架。外部领域：动画/自然/想象力。从 Panmax/awesome-nuwa 的 Panmax/miyazaki-skill 转换导入。"
+        },
+        {
+          "id": "kurosawa-perspective",
+          "zh_name": "黑泽明",
+          "group": "文学、艺术与电影",
+          "source_path": "references/perspectives/kurosawa-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/kurosawa-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "黑泽明",
+            "kurosawa",
+            "电影/叙事/完美主义"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "黑泽明的公开思维框架。外部领域：电影/叙事/完美主义。从 Panmax/awesome-nuwa 的 Panmax/kurosawa-skill 转换导入。"
+        }
+      ]
+    },
+    {
+      "name": "政治、战略与历史",
+      "perspectives": [
+        {
+          "id": "liguangyao-perspective",
+          "zh_name": "李光耀",
+          "group": "政治、战略与历史",
+          "source_path": "references/perspectives/liguangyao-perspective/PERSPECTIVE.md",
+          "card_path": "references/perspectives/liguangyao-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "李光耀",
+            "liguangyao",
+            "治国/实用主义/制度设计"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "李光耀的公开思维框架。外部领域：治国/实用主义/制度设计。从 Panmax/awesome-nuwa 的 Panmax/liguangyao-skill 转换导入。"
+        }
+      ]
+    },
+    {
+      "name": "闲聊酒馆",
+      "perspectives": [
+        {
+          "id": "michael-jackson-perspective",
+          "zh_name": "迈克尔·杰克逊",
+          "group": "闲聊酒馆",
+          "source_path": "references/tavern/michael-jackson-perspective/PERSPECTIVE.md",
+          "card_path": "references/tavern/michael-jackson-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "迈克尔·杰克逊",
+            "michael-jackson",
+            "迈克尔·杰克逊的创作与表演系统",
+            "基于专辑",
+            "演出影像",
+            "访谈",
+            "制作记录",
+            "传记资料和外部评论的初版调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "迈克尔·杰克逊的创作与表演系统。基于专辑、演出影像、访谈、制作记录、传记资料和外部评论的初版调研， 提炼5个核心心智模型、8条决策启发式和表达DNA。 用途：作为思维顾问，用迈克尔·杰克逊的视角分析舞台、节奏、声音、身体控制、流行音乐工业、公众形象和创作纪律。 当用户提到「迈克尔杰克逊视角」「MJ会怎么看」「流行音乐」「舞台表演」「舞蹈」「节奏」「公众形象」时使用。"
+        },
+        {
+          "id": "dazai-perspective",
+          "zh_name": "太宰治",
+          "group": "闲聊酒馆",
+          "source_path": "references/tavern/dazai-perspective/PERSPECTIVE.md",
+          "card_path": "references/tavern/dazai-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "太宰治",
+            "dazai",
+            "人间失格/边缘人视角/自我解剖"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "太宰治的公开思维框架。外部领域：人间失格/边缘人视角/自我解剖。从 Panmax/awesome-nuwa 的 Panmax/dazai-skill 转换导入。"
+        },
+        {
+          "id": "wangxiaobo-perspective",
+          "zh_name": "王小波",
+          "group": "闲聊酒馆",
+          "source_path": "references/tavern/wangxiaobo-perspective/PERSPECTIVE.md",
+          "card_path": "references/tavern/wangxiaobo-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "王小波",
+            "wangxiaobo",
+            "自由/理性/黑色幽默"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "王小波的公开思维框架。外部领域：自由/理性/黑色幽默。从 Panmax/awesome-nuwa 的 Panmax/wangxiaobo-skill 转换导入。"
+        },
+        {
+          "id": "zhangxuefeng-perspective",
+          "zh_name": "张雪峰",
+          "group": "闲聊酒馆",
+          "source_path": "references/tavern/zhangxuefeng-perspective/PERSPECTIVE.md",
+          "card_path": "references/tavern/zhangxuefeng-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "张雪峰",
+            "zhangxuefeng",
+            "张雪峰的思维框架与表达方式",
+            "基于5本著作",
+            "15+篇权威媒体深度采访",
+            "30+条一手语录",
+            "11个关键决策记录和完整人生时间线的深度调研",
+            "提炼5个核心心智模型",
+            "8条决策启发式和完整的表达DNA",
+            "用途"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "张雪峰的思维框架与表达方式。基于5本著作、15+篇权威媒体深度采访、 30+条一手语录、11个关键决策记录和完整人生时间线的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用张雪峰的视角分析教育选择、职业规划、阶层流动等问题。 当用户提到「用张雪峰的视角」「张雪峰会怎么看」「张雪峰模式」「雪峰视角」时使用。 即使用户只是说「帮我用张雪峰的角度想想」「如果张雪峰会怎么说」「切换到张雪峰」也应触发。"
+        },
+        {
+          "id": "trump-perspective",
+          "zh_name": "特朗普",
+          "group": "闲聊酒馆",
+          "source_path": "references/tavern/trump-perspective/PERSPECTIVE.md",
+          "card_path": "references/tavern/trump-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "特朗普",
+            "trump",
+            "唐纳德·特朗普",
+            "Donald",
+            "Trump",
+            "的思维框架与行为逻辑",
+            "基于著作",
+            "长访谈",
+            "辩论",
+            "心理分析"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "唐纳德·特朗普（Donald Trump）的思维框架与行为逻辑。基于著作、长访谈、辩论、 心理分析、前幕僚回忆录、重大决策记录共6个维度的深度调研（320KB+原始资料）， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：（1）思维顾问——用特朗普视角分析谈判、权力、传播问题； （2）行为预判——解读他的公开行为背后的逻辑，预判下一步动作； （3）角色扮演——模拟特朗普在特定场景下的决策和表达。 当用户提到「用懂王视角」「特朗普会怎么看」「懂王逻辑」「trump perspective」 「懂王会怎么做」「从特朗普角度分析」「预测特朗普」时触发。"
+        },
+        {
+          "id": "sun-yuchen-perspective",
+          "zh_name": "孙宇晨",
+          "group": "闲聊酒馆",
+          "source_path": "references/tavern/sun-yuchen-perspective/PERSPECTIVE.md",
+          "card_path": "references/tavern/sun-yuchen-perspective/PERSPECTIVE.md",
+          "positive_triggers": [
+            "孙宇晨",
+            "sun-yuchen",
+            "Justin",
+            "Sun",
+            "孙割",
+            "的思维框架与行为逻辑",
+            "基于6个维度",
+            "著作",
+            "深度采访",
+            "表达DNA"
+          ],
+          "negative_triggers": [
+            "用户明确拒绝该人物视角",
+            "任务只需要客观工具执行且不需要人物判断",
+            "现实高风险处置需要专业路径"
+          ],
+          "description": "孙宇晨（Justin Sun / 孙割）的思维框架与行为逻辑。基于6个维度（著作、深度采访、表达DNA、 他者视角、决策记录、时间线）共1500+行调研素材的深度蒸馏， 提炼6个核心心智模型、8条决策启发式、5种割味造句公式和完整的表达DNA。 用途：作为思维顾问，用孙宇晨的视角分析营销策略、注意力经济、危机公关、叙事操控、蹭热点方法论。 割味十足的角色扮演——自大、暴论、碰瓷、数字轰炸、成功学底色。 当用户提到「用孙宇晨的视角」「孙割会怎么做」「孙宇晨模式」「Justin Sun perspective」「割神」时使用。 即使用户只是说「帮我用孙割的角度想想」「如果孙宇晨会怎么操作」「切换到割神」「用割的视角」也应触发。"
+        }
+      ]
+    }
+  ]
+}
