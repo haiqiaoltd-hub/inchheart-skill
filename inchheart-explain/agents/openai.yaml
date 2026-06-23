@@ -1,0 +1,4 @@
+interface:
+  display_name: "InchHeart Explain"
+  short_description: "CLI 与 MCP 使用参考"
+  default_prompt: "Use $inchheart-explain to understand local CLIs, MCP setup, CodeGraph, Context7, node_repl, inchheart-zellij, and GitHub workflow usage."

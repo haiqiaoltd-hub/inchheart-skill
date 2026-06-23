@@ -13,7 +13,7 @@ This repository is organized as one skill per directory. Each skill directory co
 - `inchheart-search` - local SearXNG search plus Obscura/Camoufox web scraping and browser workflow
 - `inchheart-source` - source archive updates plus CodeGraph registry and sync workflow
 - `inchheart-wisdom`
-- `inchheart-zellij-explain`
+- `inchheart-explain`
 
 ## CC Switch
 

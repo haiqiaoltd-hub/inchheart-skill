@@ -12,6 +12,7 @@ InchHeart's integrated web research hub. It covers search, page extraction, rend
 | `scripts/inchheart-search` | CLI search tool (Bash + Python) | User asks to search the web through local SearXNG |
 | `references/CONFIGURATION.md` | SearXNG setup, YAML traps, engine mgmt, health check | User asks about SearXNG config, engines, YAML pitfalls, or troubleshooting |
 | `references/WORKFLOW.md` | Firecrawl-first research pipeline plus local fallback selection | User wants full search-then-scrape workflow, batch fetch, or page monitoring |
+| `references/FIRECRAWL.md` | Firecrawl CLI, auth, command split, and local usage | User asks how Firecrawl works, what commands it exposes, or how this machine uses it |
 | `references/OBSCURA.md` | Obscura commands, `--dump` modes, CDP/MCP, scrape, V8 bug, source build | User needs local/private rendered fetch, text/HTML/Markdown, links/assets, CDP, MCP, or internal-service fetch |
 | `references/CAMOUFOX.md` | Camoufox Python API, screenshots, click/input, cookie persistence, resource blocking | User needs anti-fingerprinting, complex login state, or Python browser scripts |
 
@@ -33,6 +34,7 @@ The script auto-starts SearXNG via launchctl if it is not running.
 - User asks which networking/search/scraping/browser tool to use
 - User asks for SearXNG configuration or engine tuning → read `references/CONFIGURATION.md`
 - User wants to scrape pages after searching → read `references/WORKFLOW.md`
+- User asks how Firecrawl CLI/auth/command split works → read `references/FIRECRAWL.md`
 - User wants fast batch page fetch, rendered text/HTML/Markdown, or CDP/MCP → read `references/OBSCURA.md`
 - User needs click, form fill, screenshots, Cookie, or network interception → prefer `agent-browser`
 - User needs anti-fingerprinting, complex login state, or Python browser scripts → read `references/CAMOUFOX.md`

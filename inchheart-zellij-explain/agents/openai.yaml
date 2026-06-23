@@ -1,4 +1,0 @@
-interface:
-  display_name: "InchHeart Zellij"
-  short_description: "解释和排查 Zellij 代理桥接"
-  default_prompt: "Use $inchheart-zellij-explain to route work to Zellij agent CLIs, verify panes, collect responses, or troubleshoot bridge behavior."
