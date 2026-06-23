@@ -6,7 +6,7 @@ This repository is organized as one skill per directory. Each skill directory co
 
 ## Skills
 
-- `inchheart-assets`
+- `inchheart-sort`
 - `inchheart-cloud`
 - `inchheart-epub`
 - `inchheart-gem`

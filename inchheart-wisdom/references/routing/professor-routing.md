@@ -7,7 +7,7 @@
 1. 优先看用户面对的具体问题，而不是关键词。
 2. 默认选择 1 位主教授；跨域问题最多补 1 位辅教授。
 3. 旧 16 教授和旧细分 references 已删除，不作为路由候选。
-4. 维度审计是方法资源，不是教授；只有审计分析、深度结构分析、思想家框架或用户明确要求时才优先读取 `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/SKILL.md` 和 `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/references/audit-model.md`。`references/methods/` 下的文件只是同步镜像/回退。
+4. 维度审计是方法资源，不是教授；只有审计分析、深度结构分析、思想家框架或用户明确要求时才读取 `references/methods/audit-response-protocol.md` 和 `references/methods/dimensional-audit.md`。
 5. 用户点名人物、酒馆或人物 perspective 时，转交 `inchheart-gem`。
 
 ## 快速选择
@@ -32,7 +32,7 @@
 
 ## 方法资源
 
-`/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/SKILL.md` 和 `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/references/audit-model.md` 只在下列情况使用：
+`references/methods/audit-response-protocol.md` 和 `references/methods/dimensional-audit.md` 只在下列情况使用：
 
 - 用户明确要求“审计分析”。
 - 用户明确要求“维度审计”“思想家框架”“深度结构分析”。
@@ -41,4 +41,4 @@
 
 不默认用于医学诊断、药物、法律适用、代码修复、系统架构、生物机制和物理计算。
 
-使用时保持原 `inchheart-analysis` 的双层输出：上半部分 `学术标准版/第一性原理`，下半部分 `思想家框架/维度审计模型`。`inchheart-analysis/SKILL.md` 是回复协议原文，`references/audit-model.md` 是 4+3 轴定义原文。
+使用时保持双层输出：上半部分 `学术标准版/第一性原理`，下半部分 `思想家框架/维度审计模型`。`audit-response-protocol.md` 是回复协议，`dimensional-audit.md` 是 4+3 轴定义。

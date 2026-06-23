@@ -337,14 +337,14 @@
     {
       "id": "audit-response-protocol",
       "path": "references/methods/audit-response-protocol.md",
-      "source_path": "/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/SKILL.md",
-      "use_when": "For audit analysis, dimensional audit, thinker-framework, deep structural analysis, or when the response should follow the original two-layer output, read source_path first. path is only a synchronized mirror/fallback."
+      "historical_source_path": "/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/SKILL.md",
+      "use_when": "For audit analysis, dimensional audit, thinker-framework, deep structural analysis, or when the response should follow the two-layer output protocol, read path."
     },
     {
       "id": "dimensional-audit",
       "path": "references/methods/dimensional-audit.md",
-      "source_path": "/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/references/audit-model.md",
-      "use_when": "For audit analysis, dimensional audit, thinker-framework requests, media/art/social/desire/life-choice audits, read source_path first. path is only a synchronized mirror/fallback."
+      "historical_source_path": "/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/references/audit-model.md",
+      "use_when": "For audit analysis, dimensional audit, thinker-framework requests, media/art/social/desire/life-choice audits, read path."
     }
   ]
 }

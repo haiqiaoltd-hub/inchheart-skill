@@ -1,0 +1,4 @@
+interface:
+  display_name: "InchHeart EPUB"
+  short_description: "清理 EPUB 元数据并生成 Calibre 兼容信息"
+  default_prompt: "Use $inchheart-epub to inspect an EPUB, clean dirty reader metadata, repair OPF structure, and produce Calibre-compatible metadata."

@@ -1,8 +1,0 @@
-interface:
-  display_name: "InchHeart Assets"
-  short_description: "Organize repos, books, media, bookmarks, and notes"
-  brand_color: "#2563EB"
-  default_prompt: "Use $inchheart-assets to diagnose my digital asset library, choose the right asset-specific reference, and propose a clean physical structure plus logical indexing layer for repos, services, books, media, bookmarks, or notes."
-
-policy:
-  allow_implicit_invocation: true

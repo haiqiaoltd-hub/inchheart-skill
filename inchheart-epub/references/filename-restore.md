@@ -175,11 +175,11 @@ epubcheck "$OUT"
 ```
 1. filename-restore（本附录）→ 文件名干净
 2. inchheart-epub 主线 → 元数据优化
-3. inchheart-assets → 入库分类
+3. inchheart-sort → 入库分类
 ```
 
 ## 相关
 
 - 元数据优化（主线）→ `../SKILL.md`
 - 移除 DRM 锁 → `drm-unlock.md`
-- 电子书入库分类 → `inchheart-assets`
+- 电子书入库分类 → `inchheart-sort`

@@ -24,6 +24,5 @@
 
 | 方法 | 路径 | 何时使用 |
 |---|---|---|
-| 审计分析源技能 | `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/SKILL.md` | 优先读取；原双层输出协议：先 `学术标准版/第一性原理`，再 `思想家框架/维度审计模型` |
-| 审计 4+3 轴定义 | `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/references/audit-model.md` | 优先读取；原 4+3 轴定义；用户要求审计分析、维度审计、思想家框架、深度结构分析，或对象涉及媒介、艺术、社会制度、身份和欲望机制时使用 |
-| 审计方法镜像 | `references/methods/audit-response-protocol.md`、`references/methods/dimensional-audit.md` | 与 `inchheart-analysis` 同步的本技能内回退副本 |
+| 审计回复协议 | `references/methods/audit-response-protocol.md` | 双层输出协议：先 `学术标准版/第一性原理`，再 `思想家框架/维度审计模型` |
+| 审计 4+3 轴定义 | `references/methods/dimensional-audit.md` | 用户要求审计分析、维度审计、思想家框架、深度结构分析，或对象涉及媒介、艺术、社会制度、身份和欲望机制时使用 |

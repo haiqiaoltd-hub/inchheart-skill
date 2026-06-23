@@ -1,0 +1,8 @@
+interface:
+  display_name: "InchHeart Sort"
+  short_description: "整理电脑资料、文件夹、书库和媒体"
+  brand_color: "#2563EB"
+  default_prompt: "Use $inchheart-sort to diagnose my messy folders or computer files, choose the right reference, and propose a clean physical structure plus tags or indexes when useful."
+
+policy:
+  allow_implicit_invocation: true

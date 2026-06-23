@@ -107,13 +107,13 @@ CodeGraph rules:
 - If `pendingChanges` is non-zero, run `codegraph sync <projectPath>`, then `python3 scripts/refresh_registry.py --write`.
 - If the index is corrupted or badly stale, run `codegraph index <projectPath>`, then refresh the registry.
 
-## Standard Workflow
+## Local State Checks
 
-1. Read the index and directory state:
+Read the index and directory state before deciding whether to inspect, download, update, or sync:
 
 ```bash
 # 注意：如果文件名包含中文，sed/cat 可能因 shell 解析失败。优先用 Python 或通配符。
-# 错误示例：sed -n '1,260p' /Users/mac/Repository/Sources/Source 说明.md  ❌
+# 错误示例：sed -n '1,260p' /Users/mac/Repository/Sources/Source说明.md  ❌
 # 正确做法：
 cd /Users/mac/Repository/Sources && cat Source*.md | head -260  # 通配符绕过解析
 # 或用 Python execute_code + glob 读取
@@ -215,7 +215,9 @@ python3 scripts/refresh_registry.py --write
 - **macOS rsync bug**：macOS 自带 rsync 在并发操作时可能报 `poll: bad fd / unexpected end of file`。源码覆盖更新时一律用 Python `shutil`，不用 rsync。
 - **`cp -a` 覆盖目录报错**：`cp -a new_src/. old_dir/` 在目标目录已有同名子目录时会报 `Is a directory`。正确做法：先清空目标（保留 `.codegraph/`），再逐项复制。
 
-2. Extract the continuous update list from the document. For each item, note:
+## Upstream Check Workflow
+
+1. Extract the continuous update list from the document. For each item, note:
 
 | Field | Meaning |
 |---|---|
@@ -225,7 +227,7 @@ python3 scripts/refresh_registry.py --write
 | 上游最新 | Expected upstream version/tag/commit |
 | 上游地址 | GitHub repository URL |
 
-3. Check upstream only for continuous projects:
+2. Check upstream only for continuous projects:
 
 ```bash
 # Latest release tag
@@ -237,7 +239,7 @@ gh api repos/owner/repo/commits/main --jq '.sha'
 
 Use `git ls-remote --tags` only when release API is unavailable or a repo has unusual release behavior.
 
-4. If upstream is newer, download a GitHub source archive `zip` into the existing local directory:
+3. If upstream is newer, download a GitHub source archive `zip` into the existing local directory:
 
 ```bash
 curl -fL 'https://api.github.com/repos/owner/repo/zipball/<tag-or-sha>' \
@@ -252,7 +254,7 @@ Prefer the naming style already used by that directory, for example:
 | release tag `rust-v0.137.0` | `codex-rust-v0.137.0.zip` |
 | main commit `abcdef...` | `project-main-abcdef123456.zip` |
 
-5. Validate every newly downloaded archive:
+4. Validate every newly downloaded archive:
 
 ```bash
 unzip -t '/path/to/new.zip' | tail -n 1
@@ -260,7 +262,7 @@ unzip -t '/path/to/new.zip' | tail -n 1
 
 Accept only `No errors detected...`. If validation fails, delete only the bad file you just downloaded and report the failure.
 
-6. Update `Source 说明.md`:
+5. Update `Source说明.md`:
 
 | Section | Required update |
 |---|---|
@@ -271,9 +273,9 @@ Accept only `No errors detected...`. If validation fails, delete only the bad fi
 | Filesystem mismatches | Correct local directory/package facts |
 | New source dirs | Add as non-continuous unless the user asks to track continuously |
 
-**注意：** 如果文件名包含中文（如 `Source 说明.md`），不要用 sed/cat 直接编辑。使用 Python execute_code 读取全文，用字符串替换更新，然后 write_file 覆盖写回。见本节第 1 步的注释。
+**注意：** 如果文件名包含中文（如 `Source说明.md`），不要用 sed/cat 直接编辑。使用 Python execute_code 读取全文，用字符串替换更新，然后 write_file 覆盖写回。见 Local State Checks 的注释。
 
-7. Final verification:
+6. Final verification:
 
 ```bash
 find /Users/mac/Repository/Sources -maxdepth 2 -type f -name '*.zip' | sort
@@ -291,7 +293,7 @@ Keep the index factual and conservative:
 - If a directory exists in `Sources` but is not in the continuous list, add it under `## 非持续更新项目` unless the user explicitly wants continuous tracking.
 - **Moving to `no-update/`**: When the user decides a project is no longer worth tracking, move the entire group directory (e.g., `agent-cli/goose-cli` → `no-update/goose-cli`). Then update `Source说明.md` to move the entry from 持续更新 to 非持续更新, noting the new `no-update/` path. Run `refresh_registry.py --write` afterwards so CodeGraph registry picks up the path change.
 - If an upstream repository redirects, record the resolved current upstream address.
-- **Filename with Chinese characters:** When reading/editing `Source 说明.md` or similar files with Chinese names, do NOT use `sed`, `cat`, or direct path arguments in terminal — shell parsing often fails. Use Python's `glob.glob("Source*.md")` to resolve the filename, then read/write via `execute_code`. This is a recurring pitfall on macOS with zh-CN filenames.
+- **Filename with Chinese characters:** When reading/editing `Source说明.md` or similar files with Chinese names, do NOT use `sed`, `cat`, or direct path arguments in terminal — shell parsing often fails. Use Python's `glob.glob("Source*.md")` to resolve the filename, then read/write via `execute_code`. This is a recurring pitfall on macOS with zh-CN filenames.
 
 ## Reporting
 

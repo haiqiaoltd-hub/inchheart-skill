@@ -8,9 +8,6 @@ import sys
 from pathlib import Path
 from typing import Any
 
-
-ANALYSIS_ROOT = Path("/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis")
-
 EXPECTED_IDS = [
     "postmodern-philosophy-professor",
     "literature-professor",
@@ -124,36 +121,20 @@ def check_boundaries(root: Path, report: list[str]) -> None:
 
 def check_methods(root: Path, report: list[str]) -> None:
     expected_resources = [
-        (
-            "references/methods/audit-response-protocol.md",
-            ANALYSIS_ROOT / "SKILL.md",
-        ),
-        (
-            "references/methods/dimensional-audit.md",
-            ANALYSIS_ROOT / "references" / "audit-model.md",
-        ),
+        "references/methods/audit-response-protocol.md",
+        "references/methods/dimensional-audit.md",
     ]
-    for expected_path, source_path in expected_resources:
+    for expected_path in expected_resources:
         method_path = root / expected_path
         if not method_path.exists():
             report.append(f"FAIL missing method resource: {rel(root, method_path)}")
-        if not source_path.exists():
-            report.append(f"FAIL missing analysis source: {source_path}")
-        if method_path.exists() and source_path.exists():
-            if method_path.read_bytes() != source_path.read_bytes():
-                report.append(
-                    f"FAIL method mirror drift: {rel(root, method_path)} != {source_path}"
-                )
 
     routing = load_json(root / "references" / "routing" / "professor-routing.json", report)
     method_resources = routing.get("method_resources", [])
     paths = [str(item.get("path", "")) for item in method_resources]
-    source_paths = [str(item.get("source_path", "")) for item in method_resources]
-    for expected_path, source_path in expected_resources:
+    for expected_path in expected_resources:
         if expected_path not in paths:
             report.append(f"FAIL routing missing method resource: {expected_path}")
-        if str(source_path) not in source_paths:
-            report.append(f"FAIL routing missing method source: {source_path}")
 
 
 def main() -> int:

@@ -1,12 +1,11 @@
 ---
-name: inchheart-assets
-description: "数字资产整理技能：用于整理或重构电子书库、项目仓库、源码收藏、本地服务、文件夹、图片、视频、电影、浏览器书签和 Obsidian 笔记；强调唯一物理归位、学科化书籍分类，以及图谱/标签式索引。"
-tags: [assets, file-organization, repo, source-repo, local-service, ebook, folder, video, movie, image, bookmark, obsidian, taxonomy]
+name: inchheart-sort
+description: "电脑资料与文件夹整理技能：用于整理或重构电子书库、项目仓库、源码收藏、本地服务、文件夹、图片、视频、电影、浏览器书签和 Obsidian 笔记；强调唯一物理归位、清晰目录主轴，以及标签/图谱/索引作为逻辑层。"
 ---
 
-# 数字资产分类整理
+# 电脑资料与文件夹整理
 
-本技能用于整理个人数字资产：书库、项目仓库、源码收藏、本地服务、通用文件夹、图片、普通视频、电影/剧集、浏览器书签、Obsidian 笔记。
+本技能用于整理个人电脑资料和文件夹体系：书库、项目仓库、源码收藏、本地服务、通用文件夹、图片、普通视频、电影/剧集、浏览器书签、Obsidian 笔记。
 
 核心判断：
 
@@ -24,7 +23,7 @@ tags: [assets, file-organization, repo, source-repo, local-service, ebook, folde
 ## 不适用场景
 
 - 工作项目代码：按项目边界组织即可。
-- 系统配置文件：不是个人数字资产。
+- 系统配置文件：不是个人资料整理对象，除非用户明确要整理配置备份。
 - 应用数据库：Calibre/Eagle/Photos 等数据库由应用自己管理。
 - 临时下载：进待整理区或直接删除。
 

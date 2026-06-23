@@ -14,9 +14,8 @@ description: "问题型核心教授技能：用于教授视角、学院派分析
 | 15 个核心教授 | `references/professors/<id>/PROFESSOR.md` | 当前唯一主入口 |
 | 教授路由 | `references/routing/professor-routing.md`、`.json` | 查找教授 ID、触发场景和边界 |
 | 教授索引 | `references/routing/professor-index.md` | 人工快速浏览 |
-| 审计分析源技能 | `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/SKILL.md` | 审计分析时优先读取；原双层回复协议 |
-| 审计 4+3 轴定义 | `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/references/audit-model.md` | 审计分析时优先读取；原 4+3 轴定义 |
-| 审计方法镜像 | `references/methods/audit-response-protocol.md`、`references/methods/dimensional-audit.md` | 与 `inchheart-analysis` 同步的本技能内回退副本 |
+| 审计回复协议 | `references/methods/audit-response-protocol.md` | 审计分析、维度审计、思想家框架或深度结构分析时读取 |
+| 审计 4+3 轴定义 | `references/methods/dimensional-audit.md` | 审计分析时读取；定义 4+3 轴和使用边界 |
 
 ## 15 个核心教授
 
@@ -44,7 +43,7 @@ description: "问题型核心教授技能：用于教授视角、学院派分析
 2. 用户只描述问题时，先读 `references/routing/professor-routing.md` 或 `.json`，选择 1 位主教授。
 3. 默认只读取 1 位教授。确实跨域时，最多使用 1 位主教授 + 1 位辅教授。
 4. 旧 16 教授和旧细分教授已删除；不要尝试读取旧教授材料。
-5. 用户明确要求审计分析、维度审计、思想家框架或深度结构分析时，优先读取 `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/SKILL.md` 和 `/Users/mac/Repository/Projects/InchHeart Skill/inchheart-analysis/references/audit-model.md`。前者规定回复结构：上半部分 `学术标准版/第一性原理`，下半部分 `思想家框架/维度审计模型`；后者规定 4+3 轴定义。它们是方法，不是教授。`references/methods/` 下的同名内容只是同步镜像/回退。
+5. 用户明确要求审计分析、维度审计、思想家框架或深度结构分析时，读取 `references/methods/audit-response-protocol.md` 和 `references/methods/dimensional-audit.md`。它们是方法，不是教授。
 6. 人物视角、闲聊酒馆、人物蒸馏交给 `inchheart-gem`，不要在本技能里调用人物材料。
 
 ## 工作协议

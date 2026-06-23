@@ -45,7 +45,7 @@ Projects/
 
 | 类型 | 示例 |
 |---|---|
-| 技能 | `InchHeart Skill/inchheart-assets` |
+| 技能 | `InchHeart Skill/inchheart-sort` |
 | MCP | `MCP/inchheart-search` |
 | 应用 | `Apps/some-app` |
 | 个人工具 | `Tools/bookmark-cleaner` |

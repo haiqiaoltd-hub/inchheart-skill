@@ -120,4 +120,4 @@ unzip -p "$OUT" OEBPS/Text/*.xhtml | head -5
 ## 相关
 
 - 还原混淆文件名（优化主线）→ `../SKILL.md`
-- 电子书入库分类 → `inchheart-assets`
+- 电子书入库分类 → `inchheart-sort`
