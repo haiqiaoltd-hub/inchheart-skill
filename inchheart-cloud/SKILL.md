@@ -1,15 +1,24 @@
 ---
 name: inchheart-cloud
-description: "InchHeart 云服务与部署运维技能：用于连接 GCP Ubuntu 服务器、检查 Cloudflare DNS/SSL、诊断 api.eastart.asia、Caddy 自动 HTTPS、反向代理、525/522 源站证书错误，以及 InchHeart API 服务可达性。"
+description: "InchHeart 云服务与部署运维技能：用于连接 GCP Ubuntu 服务器、检查 Cloudflare DNS/SSL、诊断 api.eastart.asia、Caddy 自动 HTTPS、反向代理、525/522 源站证书错误、New API 中转站配置、请求参数兼容、原生 LiteLLM 服务器代理、NVIDIA NIM 多账号路由、模型增删、429/冷却、embedding/chat 区分，以及 InchHeart API 服务可达性。"
 ---
 
 # InchHeart Cloud
 
 ## Overview
 
-Use this skill when the user asks about InchHeart cloud infrastructure, the `eastart.asia` domain, the GCP server, Caddy, Cloudflare proxy/SSL, or deployed API reachability.
+Use this skill when the user asks about InchHeart cloud infrastructure, the `eastart.asia` domain, the GCP server, Caddy, Cloudflare proxy/SSL, native New API, or the server-side LiteLLM proxy.
 
-Read `references/servers.md` first for the current server map, connection commands, domain records, and known incident patterns.
+Read only the reference needed for the task:
+
+| Task | Read |
+| --- | --- |
+| Connect to the GCP server, diagnose DNS/Cloudflare/Caddy/SSH, or check service reachability | `references/server-access.md` |
+| Work on New API channels, groups, registration defaults, logo/SMTP, model lists, request passthrough, or non-image model compatibility | `references/new-api.md` |
+| Work on server LiteLLM, NVIDIA NIM keys/routes, model add/remove, Copilot compatibility callbacks, 429/cooldown, embeddings, VS Code model lists, or `/v1/models` | `references/litellm-native.md` |
+| Need the full historical server snapshot or incident notes | `references/servers.md` |
+
+Treat `inchheart-cloud` as the primary skill for the current server-side LiteLLM. Do not modify old Mac local LiteLLM files unless the user explicitly asks about local LiteLLM.
 
 ## Safety
 
@@ -21,7 +30,7 @@ Read `references/servers.md` first for the current server map, connection comman
 
 ## Connection Workflow
 
-1. Read `references/servers.md`.
+1. Read `references/server-access.md`.
 2. Confirm which host/domain the user means.
 3. If SSH is needed, use the recorded key path and `IdentitiesOnly=yes`.
 4. For a passphrase-protected SSH key, prefer an interactive login first. Do not treat a `BatchMode=yes` failure as proof that the key is wrong, because it can fail before the user enters the passphrase.
@@ -117,6 +126,13 @@ systemctl is-enabled docker.socket docker.service containerd.service 2>/dev/null
 ```
 
 Do not restart the old `/opt/litellm-nvidia` Docker Compose stack. A LiteLLM Docker attempt, even reduced to 10 NVIDIA deployments, made SSH and New API unresponsive on this free-tier host.
+
+## Service Boundaries
+
+- Server LiteLLM lives in `/opt/litellm-native` and is the source of truth for upstream NVIDIA routing.
+- New API lives in `/opt/new-api-native` and is treated as the public model configuration and token site for `api.eastart.asia`.
+- Do not update New API channel model lists or `channels.models` automatically unless the user explicitly asks; the user often maintains those manually.
+- Do not modify the old Mac local LiteLLM unless the user explicitly asks for local LiteLLM work.
 
 ## User Guidance Style
 

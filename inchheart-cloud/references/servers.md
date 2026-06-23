@@ -1,8 +1,10 @@
 # InchHeart Cloud Server Reference
 
-Last updated: 2026-06-22.
+Last updated: 2026-06-23.
 
 This file records operational facts that are safe to store. It intentionally excludes private key contents, Cloudflare credentials, API keys, and application secrets.
+
+For day-to-day work, prefer the categorized references: `server-access.md` for SSH/DNS/Caddy, `new-api.md` for New API configuration, and `litellm-native.md` for the server-side LiteLLM gateway. Use this file as the full historical snapshot.
 
 ## Primary GCP API Server
 
@@ -218,8 +220,8 @@ The service is intentionally native, not Docker:
 | Python environment | `/opt/litellm-native/venv` |
 | LiteLLM version installed | `1.89.3` |
 | NVIDIA endpoint | `https://integrate.api.nvidia.com/v1` |
-| Exposed models | `z-ai/glm-5.1`, `stepfun-ai/step-3.7-flash`, `minimaxai/minimax-m3`, `moonshotai/kimi-k2.6`, `deepseek-ai/deepseek-v4-pro` |
-| Deployments | 50 total, 10 NVIDIA API keys per model group |
+| Exposed models | `qwen/qwen3.5-397b-a17b`, `qwen/qwen3.5-122b-a10b`, `z-ai/glm-5.1`, `deepseek-ai/deepseek-v4-flash`, `nvidia/nemotron-3-super-120b-a12b`, `moonshotai/kimi-k2.6`, `mistralai/mistral-large-3-675b-instruct-2512`, `stepfun-ai/step-3.7-flash`, `minimaxai/minimax-m2.7`, `openai/gpt-oss-120b`, `nvidia/nemotron-3-ultra-550b-a55b`, `minimaxai/minimax-m3`, `deepseek-ai/deepseek-v4-pro`, `google/gemma-4-31b-it`, `mistralai/mistral-small-4-119b-2603`, `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning`, `meta/llama-4-maverick-17b-128e-instruct`, `baai/bge-m3`, `nvidia/nemotron-3-nano-30b-a3b` |
+| Deployments | 190 total, 10 NVIDIA API keys per model group |
 | Per-deployment limit | `rpm: 20` |
 | Router cooldown | `cooldown_time: 3600` |
 
@@ -247,8 +249,43 @@ New API channel configuration for this local LiteLLM proxy:
 |---|---|
 | Base URL in New API UI | `http://127.0.0.1:4000` |
 | Effective OpenAI-compatible API root | `http://127.0.0.1:4000/v1` |
-| Models | `z-ai/glm-5.1`, `stepfun-ai/step-3.7-flash`, `minimaxai/minimax-m3`, `moonshotai/kimi-k2.6`, `deepseek-ai/deepseek-v4-pro` |
+| Models | `qwen/qwen3.5-397b-a17b`, `qwen/qwen3.5-122b-a10b`, `z-ai/glm-5.1`, `deepseek-ai/deepseek-v4-flash`, `nvidia/nemotron-3-super-120b-a12b`, `moonshotai/kimi-k2.6`, `mistralai/mistral-large-3-675b-instruct-2512`, `stepfun-ai/step-3.7-flash`, `minimaxai/minimax-m2.7`, `openai/gpt-oss-120b`, `nvidia/nemotron-3-ultra-550b-a55b`, `minimaxai/minimax-m3`, `deepseek-ai/deepseek-v4-pro`, `google/gemma-4-31b-it`, `mistralai/mistral-small-4-119b-2603`, `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning`, `meta/llama-4-maverick-17b-128e-instruct`, `baai/bge-m3`, `nvidia/nemotron-3-nano-30b-a3b` |
 | Key | LiteLLM currently has no master key; use a placeholder only if New API requires a value |
+
+New API operating preference:
+
+- Treat New API as the public model configuration site for `api.eastart.asia`, not as the source of truth for LiteLLM routing.
+- Do not update New API channel model lists or database `channels.models` automatically unless the user explicitly asks. The user prefers to maintain New API model lists manually in the UI.
+- Keep LiteLLM model routing, key fan-out, cooldowns, callbacks, and embedding/chat handling in `/opt/litellm-native`.
+
+For text-only or non-image-generation models, use New API request parameter compatibility to remove image-generation tools sent by clients. Add this JSON in the New API channel/model request parameter or advanced custom parameter field:
+
+```json
+{
+  "operations": [
+    {
+      "path": "tools",
+      "mode": "prune_objects",
+      "value": {
+        "where": {
+          "type": "image_generation"
+        }
+      }
+    },
+    {
+      "path": "tools",
+      "mode": "prune_objects",
+      "value": {
+        "where": {
+          "type": "image_generation_call"
+        }
+      }
+    }
+  ]
+}
+```
+
+This only prunes unsupported image-generation tool declarations from outgoing requests; it does not add image generation capability to a model. Use it when a text model or relay fails because a client advertises `image_generation` / `image_generation_call` tools.
 
 ## Docker Migration Note
 

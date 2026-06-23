@@ -1,4 +1,4 @@
 interface:
   display_name: "InchHeart Cloud"
-  short_description: "Connect and diagnose InchHeart cloud services"
-  default_prompt: "Use $inchheart-cloud to connect to the GCP server and diagnose Cloudflare, DNS, Caddy, native New API, native LiteLLM, and API routing."
+  short_description: "Manage GCP, New API, and server LiteLLM"
+  default_prompt: "Use $inchheart-cloud to connect to the GCP server, diagnose Cloudflare/DNS/Caddy, manage native New API configuration, and operate the server-side LiteLLM NVIDIA gateway."

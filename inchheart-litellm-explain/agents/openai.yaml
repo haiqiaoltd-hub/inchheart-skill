@@ -1,4 +1,0 @@
-interface:
-  display_name: "InchHeart LiteLLM Explain"
-  short_description: "Copilot 与 LiteLLM 本地兼容配置指南"
-  default_prompt: "Use $inchheart-litellm-explain to inspect and adapt my LiteLLM proxy for Copilot, Claude, and custom model providers."
