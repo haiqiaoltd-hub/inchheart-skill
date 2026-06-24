@@ -1,0 +1,4 @@
+interface:
+  display_name: "InchHeart Salon"
+  short_description: "人物视角与闲聊酒馆：调用人物 perspective、随机酒馆陪聊、蒸馏/更新人物。"
+  default_prompt: "Use $inchheart-salon to choose a fitting person perspective or open the casual tavern for this context."

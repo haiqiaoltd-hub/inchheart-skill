@@ -9,7 +9,7 @@ This repository is organized as one skill per directory. Each skill directory co
 - `inchheart-sort`
 - `inchheart-cloud`
 - `inchheart-epub`
-- `inchheart-gem`
+- `inchheart-salon`
 - `inchheart-search` - local SearXNG search plus Obscura/Camoufox web scraping and browser workflow
 - `inchheart-source` - source archive updates plus CodeGraph registry and sync workflow
 - `inchheart-wisdom`

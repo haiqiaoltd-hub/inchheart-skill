@@ -8,7 +8,7 @@
 2. 默认选择 1 位主教授；跨域问题最多补 1 位辅教授。
 3. 旧 16 教授和旧细分 references 已删除，不作为路由候选。
 4. 维度审计是方法资源，不是教授；只有审计分析、深度结构分析、思想家框架或用户明确要求时才读取 `references/methods/audit-response-protocol.md` 和 `references/methods/dimensional-audit.md`。
-5. 用户点名人物、酒馆或人物 perspective 时，转交 `inchheart-gem`。
+5. 用户点名人物、酒馆或人物 perspective 时，转交 `inchheart-salon`。
 
 ## 快速选择
 

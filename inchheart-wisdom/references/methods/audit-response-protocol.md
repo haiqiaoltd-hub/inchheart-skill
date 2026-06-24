@@ -79,4 +79,4 @@ Read `references/audit-model.md` when the task requires detailed theoretical gro
 - Do not claim certainty for psychoanalytic, sociological, or philosophical interpretations unless the evidence supports it.
 - Do not assume every attractive object is manipulation. Identify the concrete mechanism before making a critical claim.
 - Do not force postmodern language onto simple causal problems. If a first-principles explanation is enough, use it.
-- Do not duplicate InchHeart Gem's role: this skill supplies audit methodology, not full personality simulation.
+- Do not duplicate InchHeart Salon's role: this skill supplies audit methodology, not full personality simulation.

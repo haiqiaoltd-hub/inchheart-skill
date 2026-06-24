@@ -44,7 +44,7 @@ description: "问题型核心教授技能：用于教授视角、学院派分析
 3. 默认只读取 1 位教授。确实跨域时，最多使用 1 位主教授 + 1 位辅教授。
 4. 旧 16 教授和旧细分教授已删除；不要尝试读取旧教授材料。
 5. 用户明确要求审计分析、维度审计、思想家框架或深度结构分析时，读取 `references/methods/audit-response-protocol.md` 和 `references/methods/dimensional-audit.md`。它们是方法，不是教授。
-6. 人物视角、闲聊酒馆、人物蒸馏交给 `inchheart-gem`，不要在本技能里调用人物材料。
+6. 人物视角、闲聊酒馆、人物蒸馏交给 `inchheart-salon`，不要在本技能里调用人物材料。
 
 ## 工作协议
 
