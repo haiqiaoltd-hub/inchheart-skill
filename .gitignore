@@ -6,6 +6,9 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+/.tmp-*
+/.work/
+/probe-results/
 
 # Python and build caches
 __pycache__/
