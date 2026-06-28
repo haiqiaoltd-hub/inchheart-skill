@@ -30,7 +30,7 @@ def find_project_roots(scan_roots):
                 project_path = codegraph_dir.parent
                 # Only index under tracked source directories
                 rel = str(project_path)
-                tracked_prefixes = ("/agent-cli/", "/agent-gateway/", "/no-update/")
+                tracked_prefixes = ("/agent-cli/", "/agent-gateway/", "/no-update/", "/plugin/")
                 if not any(prefix in rel for prefix in tracked_prefixes):
                     continue
                 roots.append(project_path)

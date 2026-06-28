@@ -1,34 +1,18 @@
 {
   "schemaVersion": 1,
-  "lastVerified": "2026-06-22T14:17:24+08:00",
+  "lastVerified": "2026-06-28T21:51:54+08:00",
   "scanRoots": [
     "/Users/mac/Repository/Sources"
   ],
   "projects": [
     {
-      "alias": "agent-gateway",
-      "name": "new-api",
-      "aliases": [],
-      "projectPath": "/Users/mac/Repository/Sources/agent-gateway/new-api",
-      "initialized": true,
-      "files": 1919,
-      "nodes": 27978,
-      "dbSizeBytes": 62164992,
-      "pendingChanges": {
-        "added": 0,
-        "modified": 0,
-        "removed": 0
-      },
-      "worktreeMismatch": null
-    },
-    {
       "alias": "agentscope-cli",
       "name": "agentscope-cli",
       "aliases": [],
-      "projectPath": "/Users/mac/Repository/Sources/no-update/agentscope-cli/agentscope-cli",
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/agentscope-cli/agentscope-cli",
       "initialized": true,
-      "files": 489,
-      "nodes": 6599,
+      "files": 533,
+      "nodes": 7242,
       "dbSizeBytes": 13598720,
       "pendingChanges": {
         "added": 0,
@@ -43,9 +27,9 @@
       "aliases": [],
       "projectPath": "/Users/mac/Repository/Sources/agent-gateway/cc-switch/cc-switch",
       "initialized": true,
-      "files": 587,
-      "nodes": 11378,
-      "dbSizeBytes": 32374784,
+      "files": 597,
+      "nodes": 11620,
+      "dbSizeBytes": 34951168,
       "pendingChanges": {
         "added": 0,
         "modified": 0,
@@ -59,8 +43,8 @@
       "aliases": [],
       "projectPath": "/Users/mac/Repository/Sources/agent-gateway/cc-switch-cli/cc-switch-cli",
       "initialized": true,
-      "files": 369,
-      "nodes": 15881,
+      "files": 372,
+      "nodes": 15917,
       "dbSizeBytes": 57270272,
       "pendingChanges": {
         "added": 0,
@@ -78,6 +62,22 @@
       "files": 1889,
       "nodes": 28925,
       "dbSizeBytes": 60215296,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "clash-verge",
+      "name": "clash-verge",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/agent-gateway/clash-verge/clash-verge",
+      "initialized": true,
+      "files": 392,
+      "nodes": 5114,
+      "dbSizeBytes": 11472896,
       "pendingChanges": {
         "added": 0,
         "modified": 0,
@@ -107,9 +107,9 @@
       "aliases": [],
       "projectPath": "/Users/mac/Repository/Sources/agent-cli/codex-cli/codex-cli",
       "initialized": true,
-      "files": 3055,
-      "nodes": 97085,
-      "dbSizeBytes": 239755264,
+      "files": 3157,
+      "nodes": 100876,
+      "dbSizeBytes": 263225344,
       "pendingChanges": {
         "added": 0,
         "modified": 0,
@@ -121,10 +121,10 @@
       "alias": "gemini-cli",
       "name": "gemini-cli",
       "aliases": [],
-      "projectPath": "/Users/mac/Repository/Sources/no-update/gemini-cli/gemini-cli",
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/gemini-cli/gemini-cli",
       "initialized": true,
-      "files": 2245,
-      "nodes": 29362,
+      "files": 2258,
+      "nodes": 29504,
       "dbSizeBytes": 55746560,
       "pendingChanges": {
         "added": 0,
@@ -137,13 +137,13 @@
       "alias": "goose-cli",
       "name": "goose-cli",
       "aliases": [],
-      "projectPath": "/Users/mac/Repository/Sources/no-update/goose-cli/goose-cli",
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/goose-cli/goose-cli",
       "initialized": true,
-      "files": 1174,
-      "nodes": 22604,
-      "dbSizeBytes": 57032704,
+      "files": 1270,
+      "nodes": 25196,
+      "dbSizeBytes": 67366912,
       "pendingChanges": {
-        "added": 0,
+        "added": 1,
         "modified": 0,
         "removed": 0
       },
@@ -155,9 +155,9 @@
       "aliases": [],
       "projectPath": "/Users/mac/Repository/Sources/agent-cli/hermes-cli/hermes-cli",
       "initialized": true,
-      "files": 3636,
-      "nodes": 99740,
-      "dbSizeBytes": 228954112,
+      "files": 3969,
+      "nodes": 107630,
+      "dbSizeBytes": 232673280,
       "pendingChanges": {
         "added": 0,
         "modified": 0,
@@ -171,8 +171,8 @@
       "aliases": [],
       "projectPath": "/Users/mac/Repository/Sources/agent-gateway/litellm/litellm",
       "initialized": true,
-      "files": 5682,
-      "nodes": 104927,
+      "files": 5881,
+      "nodes": 111189,
       "dbSizeBytes": 238473216,
       "pendingChanges": {
         "added": 2,
@@ -182,14 +182,62 @@
       "worktreeMismatch": null
     },
     {
-      "alias": "openclaw-cli",
-      "name": "openclaw-cli",
+      "alias": "new-api",
+      "name": "new-api",
       "aliases": [],
-      "projectPath": "/Users/mac/Repository/Sources/no-update/openclaw-cli/openclaw-cli",
+      "projectPath": "/Users/mac/Repository/Sources/agent-gateway/new-api/new-api",
       "initialized": true,
-      "files": 17393,
-      "nodes": 302080,
-      "dbSizeBytes": 589459456,
+      "files": 1956,
+      "nodes": 29195,
+      "dbSizeBytes": 62164992,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "nvidia-nim-agent",
+      "name": "nvidia-nim-agent",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/plugin/nvidia-nim-agent/nvidia-nim-agent",
+      "initialized": true,
+      "files": 44,
+      "nodes": 520,
+      "dbSizeBytes": 1187840,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "nvidia-nim-provider",
+      "name": "nvidia-nim-provider",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/plugin/nvidia-nim-provider/nvidia-nim-provider",
+      "initialized": true,
+      "files": 27,
+      "nodes": 436,
+      "dbSizeBytes": 929792,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "obsidian-claudian",
+      "name": "claudian",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/plugin/obsidian-claudian/claudian",
+      "initialized": true,
+      "files": 603,
+      "nodes": 9282,
+      "dbSizeBytes": 20369408,
       "pendingChanges": {
         "added": 0,
         "modified": 0,
@@ -203,9 +251,9 @@
       "aliases": [],
       "projectPath": "/Users/mac/Repository/Sources/agent-cli/opencode-cli/opencode-cli",
       "initialized": true,
-      "files": 2660,
-      "nodes": 47482,
-      "dbSizeBytes": 98922496,
+      "files": 2851,
+      "nodes": 50197,
+      "dbSizeBytes": 110755840,
       "pendingChanges": {
         "added": 0,
         "modified": 0,
@@ -217,11 +265,43 @@
       "alias": "pi-cli",
       "name": "pi-cli",
       "aliases": [],
-      "projectPath": "/Users/mac/Repository/Sources/no-update/pi-cli/pi-cli",
+      "projectPath": "/Users/mac/Repository/Sources/agent-cli/pi-cli/pi-cli",
       "initialized": true,
-      "files": 672,
-      "nodes": 11353,
-      "dbSizeBytes": 26648576,
+      "files": 810,
+      "nodes": 12809,
+      "dbSizeBytes": 32694272,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "pi-nim",
+      "name": "pi-nvidia-nim",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/plugin/pi-nim/pi-nvidia-nim",
+      "initialized": true,
+      "files": 3,
+      "nodes": 68,
+      "dbSizeBytes": 237568,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "tmux",
+      "name": "tmux",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/plugin/tmux/tmux",
+      "initialized": true,
+      "files": 203,
+      "nodes": 4952,
+      "dbSizeBytes": 9269248,
       "pendingChanges": {
         "added": 0,
         "modified": 0,
@@ -238,6 +318,38 @@
       "files": 2897,
       "nodes": 66021,
       "dbSizeBytes": 135610368,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "vscode-nim-code",
+      "name": "nim-code",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/plugin/vscode-nim-code/nim-code",
+      "initialized": true,
+      "files": 0,
+      "nodes": 0,
+      "dbSizeBytes": 139264,
+      "pendingChanges": {
+        "added": 0,
+        "modified": 0,
+        "removed": 0
+      },
+      "worktreeMismatch": null
+    },
+    {
+      "alias": "zellij",
+      "name": "zellij",
+      "aliases": [],
+      "projectPath": "/Users/mac/Repository/Sources/plugin/zellij/zellij",
+      "initialized": true,
+      "files": 348,
+      "nodes": 15614,
+      "dbSizeBytes": 51597312,
       "pendingChanges": {
         "added": 0,
         "modified": 0,

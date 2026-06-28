@@ -99,6 +99,35 @@ python3 scripts/resolve_project.py codex --field projectPath
 codegraph status --json "$(python3 scripts/resolve_project.py codex --field projectPath)"
 ```
 
+### Known project paths (alias → projectPath)
+
+These are the actively indexed source directories. Pass the `projectPath` value to CodeGraph MCP — no need to run `resolve_project.py` for these.
+
+| Alias | projectPath |
+|-------|------------|
+| `codex-cli` | `/Users/mac/Repository/Sources/agent-cli/codex-cli/codex-cli` |
+| `hermes-cli` | `/Users/mac/Repository/Sources/agent-cli/hermes-cli/hermes-cli` |
+| `opencode-cli` | `/Users/mac/Repository/Sources/agent-cli/opencode-cli/opencode-cli` |
+| `claudecode-leak` | `/Users/mac/Repository/Sources/agent-cli/claudecode-leak/claude-code-source-cli` |
+| `vscode-copilot` | `/Users/mac/Repository/Sources/agent-cli/vscode-copilot/vscode-copilot-chat` |
+| `gemini-cli` | `/Users/mac/Repository/Sources/agent-cli/gemini-cli/gemini-cli` |
+| `pi-cli` | `/Users/mac/Repository/Sources/agent-cli/pi-cli/pi-cli` |
+| `goose-cli` | `/Users/mac/Repository/Sources/agent-cli/goose-cli/goose-cli` |
+| `agentscope-cli` | `/Users/mac/Repository/Sources/agent-cli/agentscope-cli/agentscope-cli` |
+| `cc-switch` | `/Users/mac/Repository/Sources/agent-gateway/cc-switch/cc-switch` |
+| `cc-switch-cli` | `/Users/mac/Repository/Sources/agent-gateway/cc-switch-cli/cc-switch-cli` |
+| `new-api` | `/Users/mac/Repository/Sources/agent-gateway/new-api/new-api` |
+| `cherry-studio` | `/Users/mac/Repository/Sources/agent-gateway/cherry-studio/cherry-studio` |
+| `litellm` | `/Users/mac/Repository/Sources/agent-gateway/litellm/litellm` |
+| `clash-verge` | `/Users/mac/Repository/Sources/agent-gateway/clash-verge/clash-verge` |
+| `obsidian-claudian` | `/Users/mac/Repository/Sources/plugin/obsidian-claudian/claudian` |
+| `nvidia-nim-provider` | `/Users/mac/Repository/Sources/plugin/nvidia-nim-provider/nvidia-nim-provider` |
+| `nvidia-nim-agent` | `/Users/mac/Repository/Sources/plugin/nvidia-nim-agent/nvidia-nim-agent` |
+| `pi-nim` | `/Users/mac/Repository/Sources/plugin/pi-nim/pi-nvidia-nim` |
+| `vscode-nim-code` | `/Users/mac/Repository/Sources/plugin/vscode-nim-code/nim-code` |
+| `zellij` | `/Users/mac/Repository/Sources/plugin/zellij/zellij` |
+| `tmux` | `/Users/mac/Repository/Sources/plugin/tmux/tmux` |
+
 CodeGraph rules:
 
 - Always pass the mapped `projectPath`; do not pass the parent collection directory unless it contains `.codegraph/codegraph.db`.

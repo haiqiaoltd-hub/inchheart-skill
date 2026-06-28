@@ -24,3 +24,6 @@ __pycache__/
 *token*
 auth.json
 config.toml
+
+# Local private skill content
+inchheart-cloud/
