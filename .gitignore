@@ -9,6 +9,7 @@ Thumbs.db
 /.tmp-*
 /.work/
 /probe-results/
+/scripts/
 
 # Python and build caches
 __pycache__/

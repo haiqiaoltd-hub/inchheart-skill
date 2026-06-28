@@ -1,7 +1,0 @@
-{
-  "status": 0,
-  "body_bytes": 134,
-  "json": false,
-  "text_head": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)>",
-  "elapsed_sec": 0.032
-}
