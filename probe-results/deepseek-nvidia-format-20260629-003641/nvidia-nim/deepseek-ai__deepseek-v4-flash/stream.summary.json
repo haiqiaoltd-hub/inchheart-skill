@@ -1,0 +1,28 @@
+{
+  "status": 0,
+  "raw_bytes": 128,
+  "events_len": 0,
+  "done_seen": false,
+  "json_events_len": 0,
+  "empty_choices_events": 0,
+  "usage_chunks": 0,
+  "finish_reasons": [],
+  "delta_key_sets_unique": [],
+  "top_key_sets_unique": [],
+  "content_chunks": {
+    "count": 0,
+    "lengths": [],
+    "joined_len": 0,
+    "first": "",
+    "last": "",
+    "possible_cumulative_prefix": false
+  },
+  "reasoning_chunks": {
+    "count": 0,
+    "lengths": [],
+    "joined_len": 0,
+    "possible_cumulative_prefix": false
+  },
+  "raw_head": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+  "elapsed_sec": 0.448
+}

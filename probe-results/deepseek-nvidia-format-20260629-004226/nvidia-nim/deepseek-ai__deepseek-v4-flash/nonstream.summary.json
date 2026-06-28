@@ -1,0 +1,39 @@
+{
+  "status": 200,
+  "body_bytes": 461,
+  "json": true,
+  "top_keys": [
+    "choices",
+    "created",
+    "id",
+    "metadata",
+    "model",
+    "object",
+    "usage"
+  ],
+  "choices_len": 1,
+  "choice_keys": [
+    "finish_reason",
+    "index",
+    "logprobs",
+    "matched_stop",
+    "message"
+  ],
+  "message_keys": [
+    "content",
+    "reasoning_content",
+    "role",
+    "tool_calls"
+  ],
+  "message_content_len": 2,
+  "has_reasoning_content": true,
+  "has_tool_calls": true,
+  "usage_keys": [
+    "completion_tokens",
+    "prompt_tokens",
+    "prompt_tokens_details",
+    "reasoning_tokens",
+    "total_tokens"
+  ],
+  "elapsed_sec": 20.322
+}

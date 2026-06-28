@@ -1,0 +1,11 @@
+{
+  "Date": "Sun, 28 Jun 2026 16:42:52 GMT",
+  "Content-Type": "application/json",
+  "Content-Length": "461",
+  "Connection": "close",
+  "Access-Control-Expose-Headers": "nvcf-reqid",
+  "Nvcf-Reqid": "570d6406-7270-45a5-97f2-8da1c8204e3f",
+  "Nvcf-Status": "fulfilled",
+  "Server": "uvicorn",
+  "Vary": "Origin"
+}

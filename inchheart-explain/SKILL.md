@@ -1,6 +1,6 @@
 ---
 name: inchheart-explain
-description: "本机 CLI 与 MCP 参考书技能：用于解释本机常用命令行工具、CodeGraph、Context7、node_repl、inchheart-zellij、GitHub workflow 以及其他 MCP 的用途、配置、启用范围和排障方式。"
+description: "本机 CLI 与 MCP 参考书技能：用于解释本机常用命令行工具、CodeGraph、Context7、node_repl、inchheart-zellij、GitHub workflow、各 CLI（OpenCode/Hermes 等）自建中转模型参数配置，以及其他 MCP 的用途、配置、启用范围和排障方式。"
 ---
 
 # InchHeart Explain
@@ -16,6 +16,7 @@ Use this skill when the user asks how the local CLI or MCP stack works, how the 
 - `references/node-repl.md` for Node REPL
 - `references/zellij.md` for `inchheart-zellij`
 - `references/github-workflow.md` for GitHub PR / issue / review / repo operations
+- `references/cli-model-config.md` for configuring self-hosted relay model params (context / reasoning / modalities) in OpenCode, Hermes, and other CLIs
 
 ## Rules
 

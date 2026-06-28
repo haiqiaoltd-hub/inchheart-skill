@@ -1,0 +1,412 @@
+[
+  {
+    "provider": "deepseek-official",
+    "model": "deepseek-v4-flash",
+    "nonstream": {
+      "status": 200,
+      "body_bytes": 629,
+      "json": true,
+      "top_keys": [
+        "choices",
+        "created",
+        "id",
+        "model",
+        "object",
+        "system_fingerprint",
+        "usage"
+      ],
+      "choices_len": 1,
+      "choice_keys": [
+        "finish_reason",
+        "index",
+        "logprobs",
+        "message"
+      ],
+      "message_keys": [
+        "content",
+        "reasoning_content",
+        "role"
+      ],
+      "message_content_len": 2,
+      "has_reasoning_content": true,
+      "has_tool_calls": false,
+      "usage_keys": [
+        "completion_tokens",
+        "completion_tokens_details",
+        "prompt_cache_hit_tokens",
+        "prompt_cache_miss_tokens",
+        "prompt_tokens",
+        "prompt_tokens_details",
+        "total_tokens"
+      ],
+      "elapsed_sec": 0.933
+    },
+    "stream": {
+      "status": 200,
+      "raw_bytes": 6487,
+      "events_len": 20,
+      "done_seen": true,
+      "json_events_len": 19,
+      "empty_choices_events": 0,
+      "usage_chunks": 1,
+      "finish_reasons": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "stop"
+      ],
+      "delta_key_sets_unique": [
+        "[\"content\", \"reasoning_content\", \"role\"]",
+        "[\"content\", \"reasoning_content\"]"
+      ],
+      "top_key_sets_unique": [
+        "[\"choices\", \"created\", \"id\", \"model\", \"object\", \"system_fingerprint\", \"usage\"]"
+      ],
+      "content_chunks": {
+        "count": 2,
+        "lengths": [
+          2,
+          0
+        ],
+        "joined_len": 2,
+        "first": "通过",
+        "last": "",
+        "possible_cumulative_prefix": false
+      },
+      "reasoning_chunks": {
+        "count": 17,
+        "lengths": [
+          0,
+          2,
+          2,
+          1,
+          2,
+          3,
+          1,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "joined_len": 27,
+        "possible_cumulative_prefix": false
+      },
+      "elapsed_sec": 0.779
+    }
+  },
+  {
+    "provider": "deepseek-official",
+    "model": "deepseek-v4-pro",
+    "nonstream": {
+      "status": 200,
+      "body_bytes": 720,
+      "json": true,
+      "top_keys": [
+        "choices",
+        "created",
+        "id",
+        "model",
+        "object",
+        "system_fingerprint",
+        "usage"
+      ],
+      "choices_len": 1,
+      "choice_keys": [
+        "finish_reason",
+        "index",
+        "logprobs",
+        "message"
+      ],
+      "message_keys": [
+        "content",
+        "reasoning_content",
+        "role"
+      ],
+      "message_content_len": 2,
+      "has_reasoning_content": true,
+      "has_tool_calls": false,
+      "usage_keys": [
+        "completion_tokens",
+        "completion_tokens_details",
+        "prompt_cache_hit_tokens",
+        "prompt_cache_miss_tokens",
+        "prompt_tokens",
+        "prompt_tokens_details",
+        "total_tokens"
+      ],
+      "elapsed_sec": 1.135
+    },
+    "stream": {
+      "status": 200,
+      "raw_bytes": 17554,
+      "events_len": 54,
+      "done_seen": true,
+      "json_events_len": 53,
+      "empty_choices_events": 0,
+      "usage_chunks": 1,
+      "finish_reasons": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "stop"
+      ],
+      "delta_key_sets_unique": [
+        "[\"content\", \"reasoning_content\", \"role\"]",
+        "[\"content\", \"reasoning_content\"]"
+      ],
+      "top_key_sets_unique": [
+        "[\"choices\", \"created\", \"id\", \"model\", \"object\", \"system_fingerprint\", \"usage\"]"
+      ],
+      "content_chunks": {
+        "count": 2,
+        "lengths": [
+          2,
+          0
+        ],
+        "joined_len": 2,
+        "first": "通过",
+        "last": "",
+        "possible_cumulative_prefix": false
+      },
+      "reasoning_chunks": {
+        "count": 51,
+        "lengths": [
+          0,
+          2,
+          4,
+          6,
+          1,
+          2,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          1,
+          6,
+          6,
+          2,
+          6,
+          6,
+          5,
+          4,
+          11,
+          1,
+          1,
+          2,
+          2,
+          4,
+          5,
+          12,
+          3,
+          3,
+          8,
+          5,
+          8,
+          4,
+          11,
+          1,
+          2,
+          2,
+          4,
+          1,
+          5,
+          3,
+          7,
+          5,
+          2,
+          2,
+          1,
+          4,
+          8,
+          5,
+          1
+        ],
+        "joined_len": 194,
+        "possible_cumulative_prefix": false
+      },
+      "elapsed_sec": 1.323
+    }
+  },
+  {
+    "provider": "nvidia-nim",
+    "model": "deepseek-ai/deepseek-v4-flash",
+    "nonstream": {
+      "status": 200,
+      "body_bytes": 461,
+      "json": true,
+      "top_keys": [
+        "choices",
+        "created",
+        "id",
+        "metadata",
+        "model",
+        "object",
+        "usage"
+      ],
+      "choices_len": 1,
+      "choice_keys": [
+        "finish_reason",
+        "index",
+        "logprobs",
+        "matched_stop",
+        "message"
+      ],
+      "message_keys": [
+        "content",
+        "reasoning_content",
+        "role",
+        "tool_calls"
+      ],
+      "message_content_len": 2,
+      "has_reasoning_content": true,
+      "has_tool_calls": true,
+      "usage_keys": [
+        "completion_tokens",
+        "prompt_tokens",
+        "prompt_tokens_details",
+        "reasoning_tokens",
+        "total_tokens"
+      ],
+      "elapsed_sec": 20.322
+    },
+    "stream": {
+      "status": 0,
+      "raw_bytes": 37,
+      "events_len": 0,
+      "done_seen": false,
+      "json_events_len": 0,
+      "empty_choices_events": 0,
+      "usage_chunks": 0,
+      "finish_reasons": [],
+      "delta_key_sets_unique": [],
+      "top_key_sets_unique": [],
+      "content_chunks": {
+        "count": 0,
+        "lengths": [],
+        "joined_len": 0,
+        "first": "",
+        "last": "",
+        "possible_cumulative_prefix": false
+      },
+      "reasoning_chunks": {
+        "count": 0,
+        "lengths": [],
+        "joined_len": 0,
+        "possible_cumulative_prefix": false
+      },
+      "raw_head": "timeout: The read operation timed out",
+      "elapsed_sec": 45.169
+    }
+  },
+  {
+    "provider": "nvidia-nim",
+    "model": "deepseek-ai/deepseek-v4-pro",
+    "nonstream": {
+      "status": 0,
+      "body_bytes": 37,
+      "json": false,
+      "text_head": "timeout: The read operation timed out",
+      "elapsed_sec": 45.454
+    },
+    "stream": {
+      "status": 0,
+      "raw_bytes": 37,
+      "events_len": 0,
+      "done_seen": false,
+      "json_events_len": 0,
+      "empty_choices_events": 0,
+      "usage_chunks": 0,
+      "finish_reasons": [],
+      "delta_key_sets_unique": [],
+      "top_key_sets_unique": [],
+      "content_chunks": {
+        "count": 0,
+        "lengths": [],
+        "joined_len": 0,
+        "first": "",
+        "last": "",
+        "possible_cumulative_prefix": false
+      },
+      "reasoning_chunks": {
+        "count": 0,
+        "lengths": [],
+        "joined_len": 0,
+        "possible_cumulative_prefix": false
+      },
+      "raw_head": "timeout: The read operation timed out",
+      "elapsed_sec": 45.449
+    }
+  }
+]
